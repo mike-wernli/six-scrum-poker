@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--SIX Scrum Poker-->
@@ -14,21 +15,120 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scrum Poker Styles..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPn-LZ-bqi">
+                                <rect key="frame" x="25" y="109" width="369" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUx-AL-lYW">
+                                <rect key="frame" x="163" y="167" width="88" height="30"/>
+                                <state key="normal" title="Classic Style"/>
+                                <connections>
+                                    <segue destination="BOC-TB-m1c" kind="show" id="dDD-Co-qP0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQx-t0-JLS">
+                                <rect key="frame" x="155" y="218" width="104" height="30"/>
+                                <state key="normal" title="Snapchat Style"/>
+                                <connections>
+                                    <segue destination="NOU-G4-SG9" kind="show" id="RXp-Q9-dos"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DUx-AL-lYW" firstAttribute="top" secondItem="PPn-LZ-bqi" secondAttribute="bottom" constant="37" id="37Y-if-ic4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IQx-t0-JLS" secondAttribute="trailing" constant="135" id="7L1-43-zIJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DUx-AL-lYW" secondAttribute="trailing" constant="143" id="Gfc-8k-qhw"/>
+                            <constraint firstItem="IQx-t0-JLS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="135" id="YB3-Rp-CZb"/>
+                            <constraint firstItem="PPn-LZ-bqi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="ZPg-BZ-COE"/>
+                            <constraint firstItem="DUx-AL-lYW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="143" id="adg-Rm-dpJ"/>
+                            <constraint firstItem="PPn-LZ-bqi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="it3-Y5-euV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PPn-LZ-bqi" secondAttribute="trailing" id="mQk-wK-xhR"/>
+                            <constraint firstItem="IQx-t0-JLS" firstAttribute="top" secondItem="DUx-AL-lYW" secondAttribute="bottom" constant="21" id="q5G-pg-Xyb"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="SIX Scrum Poker" id="Kgg-AW-rJL"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1117" y="349"/>
+            <point key="canvasLocation" x="935" y="349"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BWd-00-75t">
+            <objects>
+                <viewController id="NOU-G4-SG9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pmA-q6-X7a"/>
+                        <viewControllerLayoutGuide type="bottom" id="kbX-Xg-Ly6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I9k-d6-0gJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snapchat Poker Style" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWA-85-rsI">
+                                <rect key="frame" x="20" y="90" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YWA-85-rsI" firstAttribute="top" secondItem="pmA-q6-X7a" secondAttribute="bottom" constant="26" id="0lH-BH-yWc"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="YWA-85-rsI" secondAttribute="leading" id="1mG-fj-Bb7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YWA-85-rsI" secondAttribute="trailing" id="5p4-l2-GtK"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nfa-7D-Ja7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1461" y="760"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PPq-Q7-gvx">
+            <objects>
+                <viewController id="BOC-TB-m1c" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qe7-ZV-yUq"/>
+                        <viewControllerLayoutGuide type="bottom" id="A98-tt-mIS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xkh-Yo-c4V">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classic Scrum Poker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T00-W8-eaU">
+                                <rect key="frame" x="20" y="124" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="T00-W8-eaU" firstAttribute="top" secondItem="Qe7-ZV-yUq" secondAttribute="bottom" constant="60" id="PYe-ea-EAS"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="T00-W8-eaU" secondAttribute="leading" id="qoC-rb-VaF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="T00-W8-eaU" secondAttribute="trailing" id="zx6-BM-9sM"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mzh-as-At7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1461" y="-35"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="w3M-mq-cST">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yhT-Oy-yTV" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gu2-XM-tBj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
