@@ -15,24 +15,24 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scrum Poker Styles..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPn-LZ-bqi">
-                                <rect key="frame" x="25" y="109" width="369" height="21"/>
+                                <rect key="frame" x="25" y="109" width="555" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUx-AL-lYW">
-                                <rect key="frame" x="163" y="167" width="88" height="30"/>
+                                <rect key="frame" x="163" y="167" width="274" height="30"/>
                                 <state key="normal" title="Classic Style"/>
                                 <connections>
                                     <segue destination="BOC-TB-m1c" kind="show" id="dDD-Co-qP0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQx-t0-JLS">
-                                <rect key="frame" x="155" y="218" width="104" height="30"/>
+                                <rect key="frame" x="155" y="218" width="290" height="30"/>
                                 <state key="normal" title="Snapchat Style"/>
                                 <connections>
                                     <segue destination="NOU-G4-SG9" kind="show" id="RXp-Q9-dos"/>
@@ -53,82 +53,129 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="SIX Scrum Poker" id="Kgg-AW-rJL"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="935" y="349"/>
         </scene>
-        <!--View Controller-->
+        <!--Snapchat View Controller-->
         <scene sceneID="BWd-00-75t">
             <objects>
-                <viewController id="NOU-G4-SG9" sceneMemberID="viewController">
+                <viewController id="NOU-G4-SG9" customClass="SnapchatViewController" customModule="six_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pmA-q6-X7a"/>
                         <viewControllerLayoutGuide type="bottom" id="kbX-Xg-Ly6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="I9k-d6-0gJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snapchat Poker Style" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWA-85-rsI">
-                                <rect key="frame" x="20" y="90" width="374" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sul-Eu-Lnf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                </variation>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="YWA-85-rsI" firstAttribute="top" secondItem="pmA-q6-X7a" secondAttribute="bottom" constant="26" id="0lH-BH-yWc"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="YWA-85-rsI" secondAttribute="leading" id="1mG-fj-Bb7"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="YWA-85-rsI" secondAttribute="trailing" id="5p4-l2-GtK"/>
+                            <constraint firstAttribute="trailing" secondItem="Sul-Eu-Lnf" secondAttribute="trailing" id="HLi-ho-b0D"/>
+                            <constraint firstItem="Sul-Eu-Lnf" firstAttribute="bottom" secondItem="kbX-Xg-Ly6" secondAttribute="top" id="ezB-Nz-qmS"/>
+                            <constraint firstItem="Sul-Eu-Lnf" firstAttribute="top" secondItem="I9k-d6-0gJ" secondAttribute="top" id="kDu-Y7-MvD"/>
+                            <constraint firstItem="Sul-Eu-Lnf" firstAttribute="leading" secondItem="I9k-d6-0gJ" secondAttribute="leading" id="tuB-rR-iWg"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="scrollViewSnapchat" destination="Sul-Eu-Lnf" id="dzK-rb-UEW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nfa-7D-Ja7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1461" y="760"/>
+            <point key="canvasLocation" x="1752" y="623"/>
         </scene>
-        <!--View Controller-->
+        <!--Classic View Controller-->
         <scene sceneID="PPq-Q7-gvx">
             <objects>
-                <viewController id="BOC-TB-m1c" sceneMemberID="viewController">
+                <viewController id="BOC-TB-m1c" customClass="ClassicViewController" customModule="six_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Qe7-ZV-yUq"/>
                         <viewControllerLayoutGuide type="bottom" id="A98-tt-mIS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Xkh-Yo-c4V">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classic Scrum Poker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T00-W8-eaU">
-                                <rect key="frame" x="20" y="124" width="374" height="21"/>
+                                <rect key="frame" x="20" y="124" width="560" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="LzM-96-hQW">
+                                <rect key="frame" x="276" y="193" width="49" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7X-oE-IQG">
+                                        <rect key="frame" x="0.0" y="0.0" width="49" height="30"/>
+                                        <state key="normal" title="Card-0"/>
+                                        <connections>
+                                            <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCard" id="HKZ-JH-cD5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="T00-W8-eaU" firstAttribute="top" secondItem="Qe7-ZV-yUq" secondAttribute="bottom" constant="60" id="PYe-ea-EAS"/>
+                            <constraint firstItem="LzM-96-hQW" firstAttribute="centerX" secondItem="Xkh-Yo-c4V" secondAttribute="centerX" constant="0.5" id="QIc-G5-vNK"/>
+                            <constraint firstItem="LzM-96-hQW" firstAttribute="top" secondItem="T00-W8-eaU" secondAttribute="bottom" constant="48" id="pxk-mu-ckO"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="T00-W8-eaU" secondAttribute="leading" id="qoC-rb-VaF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="T00-W8-eaU" secondAttribute="trailing" id="zx6-BM-9sM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mzh-as-At7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1734" y="-104"/>
+        </scene>
+        <!--Classic Details View Controller-->
+        <scene sceneID="Hk5-Tl-Zhu">
+            <objects>
+                <viewController id="ZDh-Gg-Mer" customClass="ClassicDetailsViewController" customModule="six_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pcq-An-IH7"/>
+                        <viewControllerLayoutGuide type="bottom" id="wgw-3V-GDA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zhC-MY-cyV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7n-Np-xi0">
+                                <rect key="frame" x="279" y="290" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="T00-W8-eaU" firstAttribute="top" secondItem="Qe7-ZV-yUq" secondAttribute="bottom" constant="60" id="PYe-ea-EAS"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="T00-W8-eaU" secondAttribute="leading" id="qoC-rb-VaF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="T00-W8-eaU" secondAttribute="trailing" id="zx6-BM-9sM"/>
+                            <constraint firstItem="g7n-Np-xi0" firstAttribute="centerX" secondItem="zhC-MY-cyV" secondAttribute="centerX" id="1pa-hy-SPu"/>
+                            <constraint firstItem="g7n-Np-xi0" firstAttribute="centerY" secondItem="zhC-MY-cyV" secondAttribute="centerY" id="6yy-9Q-WSc"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="labelPokerCard" destination="g7n-Np-xi0" id="E8P-SD-mo7"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Mzh-as-At7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8c4-VN-huj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1461" y="-35"/>
+            <point key="canvasLocation" x="2419" y="-104"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="w3M-mq-cST">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yhT-Oy-yTV" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gu2-XM-tBj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -140,7 +187,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9fc-9E-fk8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="401" y="349"/>
+            <point key="canvasLocation" x="39" y="348.75"/>
         </scene>
     </scenes>
 </document>

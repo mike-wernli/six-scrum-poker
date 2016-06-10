@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		966264EE1D0AAE170067E7E5 /* SnapchatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966264ED1D0AAE170067E7E5 /* SnapchatViewController.swift */; };
+		966264F11D0AAF7B0067E7E5 /* SnapchatViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966264EF1D0AAF7B0067E7E5 /* SnapchatViewController0.swift */; };
+		966264F21D0AAF7B0067E7E5 /* SnapchatViewController0.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966264F01D0AAF7B0067E7E5 /* SnapchatViewController0.xib */; };
+		966264F51D0AAF8A0067E7E5 /* SnapchatViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966264F31D0AAF8A0067E7E5 /* SnapchatViewController1.swift */; };
+		966264F61D0AAF8A0067E7E5 /* SnapchatViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966264F41D0AAF8A0067E7E5 /* SnapchatViewController1.xib */; };
+		966264F91D0AAF980067E7E5 /* SnapchatViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966264F71D0AAF980067E7E5 /* SnapchatViewController2.swift */; };
+		966264FA1D0AAF980067E7E5 /* SnapchatViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966264F81D0AAF980067E7E5 /* SnapchatViewController2.xib */; };
+		966264FD1D0AAFAD0067E7E5 /* SnapchatViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966264FB1D0AAFAC0067E7E5 /* SnapchatViewController3.swift */; };
+		966264FE1D0AAFAD0067E7E5 /* SnapchatViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966264FC1D0AAFAD0067E7E5 /* SnapchatViewController3.xib */; };
+		966265001D0ABA7D0067E7E5 /* ClassicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966264FF1D0ABA7D0067E7E5 /* ClassicViewController.swift */; };
+		966265021D0ABC890067E7E5 /* poker-card-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265011D0ABC890067E7E5 /* poker-card-0.png */; };
+		966265041D0AC0F20067E7E5 /* ClassicDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966265031D0AC0F20067E7E5 /* ClassicDetailsViewController.swift */; };
 		968D9E511D08A3D5001A2B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D9E501D08A3D5001A2B99 /* AppDelegate.swift */; };
 		968D9E531D08A3D5001A2B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D9E521D08A3D5001A2B99 /* ViewController.swift */; };
 		968D9E561D08A3D6001A2B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968D9E541D08A3D6001A2B99 /* Main.storyboard */; };
@@ -16,6 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		966264ED1D0AAE170067E7E5 /* SnapchatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapchatViewController.swift; path = ../SnapchatViewController.swift; sourceTree = "<group>"; };
+		966264EF1D0AAF7B0067E7E5 /* SnapchatViewController0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewController0.swift; sourceTree = "<group>"; };
+		966264F01D0AAF7B0067E7E5 /* SnapchatViewController0.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewController0.xib; sourceTree = "<group>"; };
+		966264F31D0AAF8A0067E7E5 /* SnapchatViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewController1.swift; sourceTree = "<group>"; };
+		966264F41D0AAF8A0067E7E5 /* SnapchatViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewController1.xib; sourceTree = "<group>"; };
+		966264F71D0AAF980067E7E5 /* SnapchatViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewController2.swift; sourceTree = "<group>"; };
+		966264F81D0AAF980067E7E5 /* SnapchatViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewController2.xib; sourceTree = "<group>"; };
+		966264FB1D0AAFAC0067E7E5 /* SnapchatViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewController3.swift; sourceTree = "<group>"; };
+		966264FC1D0AAFAD0067E7E5 /* SnapchatViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewController3.xib; sourceTree = "<group>"; };
+		966264FF1D0ABA7D0067E7E5 /* ClassicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicViewController.swift; sourceTree = "<group>"; };
+		966265011D0ABC890067E7E5 /* poker-card-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-0.png"; sourceTree = "<group>"; };
+		966265031D0AC0F20067E7E5 /* ClassicDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicDetailsViewController.swift; sourceTree = "<group>"; };
 		968D9E4D1D08A3D5001A2B99 /* six-scrum-poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "six-scrum-poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		968D9E501D08A3D5001A2B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		968D9E521D08A3D5001A2B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,8 +82,20 @@
 			children = (
 				968D9E501D08A3D5001A2B99 /* AppDelegate.swift */,
 				968D9E521D08A3D5001A2B99 /* ViewController.swift */,
+				966264FF1D0ABA7D0067E7E5 /* ClassicViewController.swift */,
+				966265031D0AC0F20067E7E5 /* ClassicDetailsViewController.swift */,
+				966264ED1D0AAE170067E7E5 /* SnapchatViewController.swift */,
+				966264EF1D0AAF7B0067E7E5 /* SnapchatViewController0.swift */,
+				966264F01D0AAF7B0067E7E5 /* SnapchatViewController0.xib */,
+				966264F31D0AAF8A0067E7E5 /* SnapchatViewController1.swift */,
+				966264F41D0AAF8A0067E7E5 /* SnapchatViewController1.xib */,
+				966264F71D0AAF980067E7E5 /* SnapchatViewController2.swift */,
+				966264F81D0AAF980067E7E5 /* SnapchatViewController2.xib */,
+				966264FB1D0AAFAC0067E7E5 /* SnapchatViewController3.swift */,
+				966264FC1D0AAFAD0067E7E5 /* SnapchatViewController3.xib */,
 				968D9E541D08A3D6001A2B99 /* Main.storyboard */,
 				968D9E5A1D08A3D6001A2B99 /* Assets.xcassets */,
+				966265011D0ABC890067E7E5 /* poker-card-0.png */,
 				968D9E5C1D08A3D6001A2B99 /* LaunchScreen.storyboard */,
 				968D9E5F1D08A3D6001A2B99 /* Info.plist */,
 				968D9E571D08A3D6001A2B99 /* six_scrum_poker.xcdatamodeld */,
@@ -126,8 +162,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966265021D0ABC890067E7E5 /* poker-card-0.png in Resources */,
+				966264F61D0AAF8A0067E7E5 /* SnapchatViewController1.xib in Resources */,
 				968D9E5E1D08A3D6001A2B99 /* LaunchScreen.storyboard in Resources */,
+				966264F21D0AAF7B0067E7E5 /* SnapchatViewController0.xib in Resources */,
+				966264FA1D0AAF980067E7E5 /* SnapchatViewController2.xib in Resources */,
 				968D9E5B1D08A3D6001A2B99 /* Assets.xcassets in Resources */,
+				966264FE1D0AAFAD0067E7E5 /* SnapchatViewController3.xib in Resources */,
 				968D9E561D08A3D6001A2B99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966265001D0ABA7D0067E7E5 /* ClassicViewController.swift in Sources */,
+				966264EE1D0AAE170067E7E5 /* SnapchatViewController.swift in Sources */,
+				966265041D0AC0F20067E7E5 /* ClassicDetailsViewController.swift in Sources */,
 				968D9E591D08A3D6001A2B99 /* six_scrum_poker.xcdatamodeld in Sources */,
 				968D9E531D08A3D5001A2B99 /* ViewController.swift in Sources */,
+				966264F11D0AAF7B0067E7E5 /* SnapchatViewController0.swift in Sources */,
+				966264FD1D0AAFAD0067E7E5 /* SnapchatViewController3.swift in Sources */,
+				966264F51D0AAF8A0067E7E5 /* SnapchatViewController1.swift in Sources */,
+				966264F91D0AAF980067E7E5 /* SnapchatViewController2.swift in Sources */,
 				968D9E511D08A3D5001A2B99 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +341,7 @@
 				968D9E641D08A3D6001A2B99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
