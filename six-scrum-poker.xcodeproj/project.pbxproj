@@ -17,8 +17,21 @@
 		966264FD1D0AAFAD0067E7E5 /* SnapchatViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966264FB1D0AAFAC0067E7E5 /* SnapchatViewController3.swift */; };
 		966264FE1D0AAFAD0067E7E5 /* SnapchatViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966264FC1D0AAFAD0067E7E5 /* SnapchatViewController3.xib */; };
 		966265001D0ABA7D0067E7E5 /* ClassicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966264FF1D0ABA7D0067E7E5 /* ClassicViewController.swift */; };
-		966265021D0ABC890067E7E5 /* poker-card-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265011D0ABC890067E7E5 /* poker-card-0.png */; };
 		966265041D0AC0F20067E7E5 /* ClassicDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966265031D0AC0F20067E7E5 /* ClassicDetailsViewController.swift */; };
+		966265081D0AF4660067E7E5 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966265071D0AF4660067E7E5 /* DrawingViewController.swift */; };
+		966265101D0AFB650067E7E5 /* poker-card-template-green-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662650F1D0AFB650067E7E5 /* poker-card-template-green-0.png */; };
+		966265131D0AFB710067E7E5 /* poker-card-template-green-0a.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265111D0AFB710067E7E5 /* poker-card-template-green-0a.png */; };
+		966265141D0AFB710067E7E5 /* poker-card-template-green-0c.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265121D0AFB710067E7E5 /* poker-card-template-green-0c.png */; };
+		9662651E1D0AFB7B0067E7E5 /* poker-card-template-green-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265151D0AFB7B0067E7E5 /* poker-card-template-green-1.png */; };
+		9662651F1D0AFB7B0067E7E5 /* poker-card-template-green-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265161D0AFB7B0067E7E5 /* poker-card-template-green-2.png */; };
+		966265201D0AFB7B0067E7E5 /* poker-card-template-green-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265171D0AFB7B0067E7E5 /* poker-card-template-green-3.png */; };
+		966265211D0AFB7B0067E7E5 /* poker-card-template-green-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265181D0AFB7B0067E7E5 /* poker-card-template-green-5.png */; };
+		966265221D0AFB7B0067E7E5 /* poker-card-template-green-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265191D0AFB7B0067E7E5 /* poker-card-template-green-8.png */; };
+		966265231D0AFB7B0067E7E5 /* poker-card-template-green-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662651A1D0AFB7B0067E7E5 /* poker-card-template-green-13.png */; };
+		966265241D0AFB7B0067E7E5 /* poker-card-template-green-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662651B1D0AFB7B0067E7E5 /* poker-card-template-green-20.png */; };
+		966265251D0AFB7B0067E7E5 /* poker-card-template-green-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662651C1D0AFB7B0067E7E5 /* poker-card-template-green-40.png */; };
+		966265261D0AFB7B0067E7E5 /* poker-card-template-green-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662651D1D0AFB7B0067E7E5 /* poker-card-template-green-100.png */; };
+		966265281D0AFB880067E7E5 /* poker-card-template-green-0d.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265271D0AFB880067E7E5 /* poker-card-template-green-0d.png */; };
 		968D9E511D08A3D5001A2B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D9E501D08A3D5001A2B99 /* AppDelegate.swift */; };
 		968D9E531D08A3D5001A2B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D9E521D08A3D5001A2B99 /* ViewController.swift */; };
 		968D9E561D08A3D6001A2B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968D9E541D08A3D6001A2B99 /* Main.storyboard */; };
@@ -38,8 +51,21 @@
 		966264FB1D0AAFAC0067E7E5 /* SnapchatViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewController3.swift; sourceTree = "<group>"; };
 		966264FC1D0AAFAD0067E7E5 /* SnapchatViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewController3.xib; sourceTree = "<group>"; };
 		966264FF1D0ABA7D0067E7E5 /* ClassicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicViewController.swift; sourceTree = "<group>"; };
-		966265011D0ABC890067E7E5 /* poker-card-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-0.png"; sourceTree = "<group>"; };
 		966265031D0AC0F20067E7E5 /* ClassicDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicDetailsViewController.swift; sourceTree = "<group>"; };
+		966265071D0AF4660067E7E5 /* DrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		9662650F1D0AFB650067E7E5 /* poker-card-template-green-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-0.png"; sourceTree = "<group>"; };
+		966265111D0AFB710067E7E5 /* poker-card-template-green-0a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-0a.png"; sourceTree = "<group>"; };
+		966265121D0AFB710067E7E5 /* poker-card-template-green-0c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-0c.png"; sourceTree = "<group>"; };
+		966265151D0AFB7B0067E7E5 /* poker-card-template-green-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-1.png"; sourceTree = "<group>"; };
+		966265161D0AFB7B0067E7E5 /* poker-card-template-green-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-2.png"; sourceTree = "<group>"; };
+		966265171D0AFB7B0067E7E5 /* poker-card-template-green-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-3.png"; sourceTree = "<group>"; };
+		966265181D0AFB7B0067E7E5 /* poker-card-template-green-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-5.png"; sourceTree = "<group>"; };
+		966265191D0AFB7B0067E7E5 /* poker-card-template-green-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-8.png"; sourceTree = "<group>"; };
+		9662651A1D0AFB7B0067E7E5 /* poker-card-template-green-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-13.png"; sourceTree = "<group>"; };
+		9662651B1D0AFB7B0067E7E5 /* poker-card-template-green-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-20.png"; sourceTree = "<group>"; };
+		9662651C1D0AFB7B0067E7E5 /* poker-card-template-green-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-40.png"; sourceTree = "<group>"; };
+		9662651D1D0AFB7B0067E7E5 /* poker-card-template-green-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-100.png"; sourceTree = "<group>"; };
+		966265271D0AFB880067E7E5 /* poker-card-template-green-0d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-0d.png"; sourceTree = "<group>"; };
 		968D9E4D1D08A3D5001A2B99 /* six-scrum-poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "six-scrum-poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		968D9E501D08A3D5001A2B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		968D9E521D08A3D5001A2B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +92,19 @@
 			children = (
 				968D9E4F1D08A3D5001A2B99 /* six-scrum-poker */,
 				968D9E4E1D08A3D5001A2B99 /* Products */,
+				9662650F1D0AFB650067E7E5 /* poker-card-template-green-0.png */,
+				966265111D0AFB710067E7E5 /* poker-card-template-green-0a.png */,
+				966265121D0AFB710067E7E5 /* poker-card-template-green-0c.png */,
+				966265271D0AFB880067E7E5 /* poker-card-template-green-0d.png */,
+				966265151D0AFB7B0067E7E5 /* poker-card-template-green-1.png */,
+				966265161D0AFB7B0067E7E5 /* poker-card-template-green-2.png */,
+				966265171D0AFB7B0067E7E5 /* poker-card-template-green-3.png */,
+				966265181D0AFB7B0067E7E5 /* poker-card-template-green-5.png */,
+				966265191D0AFB7B0067E7E5 /* poker-card-template-green-8.png */,
+				9662651A1D0AFB7B0067E7E5 /* poker-card-template-green-13.png */,
+				9662651B1D0AFB7B0067E7E5 /* poker-card-template-green-20.png */,
+				9662651C1D0AFB7B0067E7E5 /* poker-card-template-green-40.png */,
+				9662651D1D0AFB7B0067E7E5 /* poker-card-template-green-100.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +133,8 @@
 				966264FB1D0AAFAC0067E7E5 /* SnapchatViewController3.swift */,
 				966264FC1D0AAFAD0067E7E5 /* SnapchatViewController3.xib */,
 				968D9E541D08A3D6001A2B99 /* Main.storyboard */,
+				966265071D0AF4660067E7E5 /* DrawingViewController.swift */,
 				968D9E5A1D08A3D6001A2B99 /* Assets.xcassets */,
-				966265011D0ABC890067E7E5 /* poker-card-0.png */,
 				968D9E5C1D08A3D6001A2B99 /* LaunchScreen.storyboard */,
 				968D9E5F1D08A3D6001A2B99 /* Info.plist */,
 				968D9E571D08A3D6001A2B99 /* six_scrum_poker.xcdatamodeld */,
@@ -162,14 +201,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				966265021D0ABC890067E7E5 /* poker-card-0.png in Resources */,
 				966264F61D0AAF8A0067E7E5 /* SnapchatViewController1.xib in Resources */,
 				968D9E5E1D08A3D6001A2B99 /* LaunchScreen.storyboard in Resources */,
+				966265281D0AFB880067E7E5 /* poker-card-template-green-0d.png in Resources */,
+				966265141D0AFB710067E7E5 /* poker-card-template-green-0c.png in Resources */,
 				966264F21D0AAF7B0067E7E5 /* SnapchatViewController0.xib in Resources */,
+				966265241D0AFB7B0067E7E5 /* poker-card-template-green-20.png in Resources */,
 				966264FA1D0AAF980067E7E5 /* SnapchatViewController2.xib in Resources */,
+				9662651E1D0AFB7B0067E7E5 /* poker-card-template-green-1.png in Resources */,
+				966265231D0AFB7B0067E7E5 /* poker-card-template-green-13.png in Resources */,
+				966265251D0AFB7B0067E7E5 /* poker-card-template-green-40.png in Resources */,
+				966265201D0AFB7B0067E7E5 /* poker-card-template-green-3.png in Resources */,
 				968D9E5B1D08A3D6001A2B99 /* Assets.xcassets in Resources */,
 				966264FE1D0AAFAD0067E7E5 /* SnapchatViewController3.xib in Resources */,
+				9662651F1D0AFB7B0067E7E5 /* poker-card-template-green-2.png in Resources */,
+				966265101D0AFB650067E7E5 /* poker-card-template-green-0.png in Resources */,
+				966265221D0AFB7B0067E7E5 /* poker-card-template-green-8.png in Resources */,
+				966265211D0AFB7B0067E7E5 /* poker-card-template-green-5.png in Resources */,
 				968D9E561D08A3D6001A2B99 /* Main.storyboard in Resources */,
+				966265131D0AFB710067E7E5 /* poker-card-template-green-0a.png in Resources */,
+				966265261D0AFB7B0067E7E5 /* poker-card-template-green-100.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +237,7 @@
 				968D9E591D08A3D6001A2B99 /* six_scrum_poker.xcdatamodeld in Sources */,
 				968D9E531D08A3D5001A2B99 /* ViewController.swift in Sources */,
 				966264F11D0AAF7B0067E7E5 /* SnapchatViewController0.swift in Sources */,
+				966265081D0AF4660067E7E5 /* DrawingViewController.swift in Sources */,
 				966264FD1D0AAFAD0067E7E5 /* SnapchatViewController3.swift in Sources */,
 				966264F51D0AAF8A0067E7E5 /* SnapchatViewController1.swift in Sources */,
 				966264F91D0AAF980067E7E5 /* SnapchatViewController2.swift in Sources */,
