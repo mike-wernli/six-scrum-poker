@@ -78,6 +78,7 @@
 		968D9E5B1D08A3D6001A2B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968D9E5A1D08A3D6001A2B99 /* Assets.xcassets */; };
 		968D9E5E1D08A3D6001A2B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968D9E5C1D08A3D6001A2B99 /* LaunchScreen.storyboard */; };
 		96D93CB71D0BE01C00B6F9F2 /* ReactorSceneKitParticleSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 96D93CB61D0BE01C00B6F9F2 /* ReactorSceneKitParticleSystem.scnp */; };
+		96D93CB91D0C2F7100B6F9F2 /* scrum-poker-menu-freestyle2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D93CB81D0C2F7100B6F9F2 /* scrum-poker-menu-freestyle2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -154,6 +155,7 @@
 		968D9E5D1D08A3D6001A2B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		968D9E5F1D08A3D6001A2B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96D93CB61D0BE01C00B6F9F2 /* ReactorSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = ReactorSceneKitParticleSystem.scnp; sourceTree = "<group>"; };
+		96D93CB81D0C2F7100B6F9F2 /* scrum-poker-menu-freestyle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrum-poker-menu-freestyle2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				9662655D1D0B55920067E7E5 /* SceneKit.framework */,
 				968D9E4F1D08A3D5001A2B99 /* six-scrum-poker */,
 				968D9E4E1D08A3D5001A2B99 /* Products */,
+				96D93CB81D0C2F7100B6F9F2 /* scrum-poker-menu-freestyle2.png */,
 				966AFE811D0B6C9A000AF5E0 /* scrum-poker-menu-freestyle.png */,
 				966AFE7F1D0B6B4A000AF5E0 /* scrum-poker-menu-snapchat.png */,
 				966AFE7D1D0B6964000AF5E0 /* scrum-poker-menu-classic.png */,
@@ -351,6 +354,7 @@
 				966265441D0B0C410067E7E5 /* SnapchatViewControllerQuestion.xib in Resources */,
 				966AFE801D0B6B4A000AF5E0 /* scrum-poker-menu-snapchat.png in Resources */,
 				966265501D0B0CD10067E7E5 /* SnapchatViewControllerHalf.xib in Resources */,
+				96D93CB91D0C2F7100B6F9F2 /* scrum-poker-menu-freestyle2.png in Resources */,
 				966265701D0B63D20067E7E5 /* RainSceneKitParticleSystem.scnp in Resources */,
 				9662654C1D0B0C690067E7E5 /* SnapchatViewControllerInfinity.xib in Resources */,
 				9662656D1D0B632F0067E7E5 /* FireSceneKitParticleSystem.scnp in Resources */,

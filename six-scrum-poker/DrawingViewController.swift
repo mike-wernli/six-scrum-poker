@@ -30,7 +30,7 @@ class DrawingViewController: UIViewController {
     
     @IBAction func buttonClearPressed(sender: AnyObject) {
         drawImageView.image = nil
-        drawImageView.image = UIImage(contentsOfFile: "notizblock-bg.png")
+        drawImageView.image = UIImage(named: "notizblock-bg")
         NSLog("You piece of 💩 reset that damn image!!!!!")
     }
     

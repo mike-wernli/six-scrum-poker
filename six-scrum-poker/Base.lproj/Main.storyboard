@@ -37,7 +37,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lbq-2A-cc1">
                                 <rect key="frame" x="0.0" y="310" width="400" height="120"/>
-                                <state key="normal" title="Free Style" image="scrum-poker-menu-freestyle.png"/>
+                                <state key="normal" title="Free Style" image="scrum-poker-menu-freestyle2.png"/>
                                 <connections>
                                     <segue destination="BC5-vh-Neu" kind="show" id="zyl-mq-cI7"/>
                                 </connections>
@@ -338,7 +338,7 @@
         <image name="poker-card-template-green-8.png" width="120" height="120"/>
         <image name="poker-card-template-green-infinity.png" width="120" height="120"/>
         <image name="scrum-poker-menu-classic.png" width="400" height="120"/>
-        <image name="scrum-poker-menu-freestyle.png" width="400" height="120"/>
+        <image name="scrum-poker-menu-freestyle2.png" width="400" height="120"/>
         <image name="scrum-poker-menu-snapchat.png" width="400" height="120"/>
     </resources>
     <inferredMetricsTieBreakers>
