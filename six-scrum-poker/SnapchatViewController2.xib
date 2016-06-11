@@ -15,18 +15,36 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qvo-3b-Wzz">
-                    <rect key="frame" x="295" y="290" width="10" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tY-h8-EJd">
+                    <rect key="frame" x="211" y="126" width="179" height="348"/>
+                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="300"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="Qvo-3b-Wzz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7ku-RN-8jW"/>
-                <constraint firstItem="Qvo-3b-Wzz" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Mhc-z8-5bC"/>
+                <constraint firstItem="3tY-h8-EJd" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="0yC-eP-RrR"/>
+                <constraint firstItem="3tY-h8-EJd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KkW-OU-1qb"/>
             </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="3tY-h8-EJd"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="0yC-eP-RrR"/>
+                    <exclude reference="KkW-OU-1qb"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="3tY-h8-EJd"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="0yC-eP-RrR"/>
+                    <include reference="KkW-OU-1qb"/>
+                </mask>
+            </variation>
         </view>
     </objects>
 </document>

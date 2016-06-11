@@ -32,12 +32,52 @@
 		966265251D0AFB7B0067E7E5 /* poker-card-template-green-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662651C1D0AFB7B0067E7E5 /* poker-card-template-green-40.png */; };
 		966265261D0AFB7B0067E7E5 /* poker-card-template-green-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662651D1D0AFB7B0067E7E5 /* poker-card-template-green-100.png */; };
 		966265281D0AFB880067E7E5 /* poker-card-template-green-0d.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265271D0AFB880067E7E5 /* poker-card-template-green-0d.png */; };
+		9662652B1D0B0BB30067E7E5 /* SnapchatViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966265291D0B0BB30067E7E5 /* SnapchatViewController5.swift */; };
+		9662652C1D0B0BB30067E7E5 /* SnapchatViewController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9662652A1D0B0BB30067E7E5 /* SnapchatViewController5.xib */; };
+		9662652F1D0B0BC60067E7E5 /* SnapchatViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662652D1D0B0BC60067E7E5 /* SnapchatViewController8.swift */; };
+		966265301D0B0BC60067E7E5 /* SnapchatViewController8.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9662652E1D0B0BC60067E7E5 /* SnapchatViewController8.xib */; };
+		966265331D0B0BD30067E7E5 /* SnapchatViewController13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966265311D0B0BD30067E7E5 /* SnapchatViewController13.swift */; };
+		966265341D0B0BD30067E7E5 /* SnapchatViewController13.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966265321D0B0BD30067E7E5 /* SnapchatViewController13.xib */; };
+		966265371D0B0BE90067E7E5 /* SnapchatViewController20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966265351D0B0BE90067E7E5 /* SnapchatViewController20.swift */; };
+		966265381D0B0BE90067E7E5 /* SnapchatViewController20.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966265361D0B0BE90067E7E5 /* SnapchatViewController20.xib */; };
+		9662653B1D0B0C080067E7E5 /* SnapchatViewController40.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966265391D0B0C080067E7E5 /* SnapchatViewController40.swift */; };
+		9662653C1D0B0C080067E7E5 /* SnapchatViewController40.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9662653A1D0B0C080067E7E5 /* SnapchatViewController40.xib */; };
+		9662653F1D0B0C1C0067E7E5 /* SnapchatViewController100.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662653D1D0B0C1C0067E7E5 /* SnapchatViewController100.swift */; };
+		966265401D0B0C1C0067E7E5 /* SnapchatViewController100.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9662653E1D0B0C1C0067E7E5 /* SnapchatViewController100.xib */; };
+		966265431D0B0C410067E7E5 /* SnapchatViewControllerQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966265411D0B0C410067E7E5 /* SnapchatViewControllerQuestion.swift */; };
+		966265441D0B0C410067E7E5 /* SnapchatViewControllerQuestion.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966265421D0B0C410067E7E5 /* SnapchatViewControllerQuestion.xib */; };
+		966265471D0B0C530067E7E5 /* SnapchatViewControllerCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966265451D0B0C530067E7E5 /* SnapchatViewControllerCoffee.swift */; };
+		966265481D0B0C530067E7E5 /* SnapchatViewControllerCoffee.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966265461D0B0C530067E7E5 /* SnapchatViewControllerCoffee.xib */; };
+		9662654B1D0B0C690067E7E5 /* SnapchatViewControllerInfinity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966265491D0B0C690067E7E5 /* SnapchatViewControllerInfinity.swift */; };
+		9662654C1D0B0C690067E7E5 /* SnapchatViewControllerInfinity.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9662654A1D0B0C690067E7E5 /* SnapchatViewControllerInfinity.xib */; };
+		9662654F1D0B0CD10067E7E5 /* SnapchatViewControllerHalf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662654D1D0B0CD10067E7E5 /* SnapchatViewControllerHalf.swift */; };
+		966265501D0B0CD10067E7E5 /* SnapchatViewControllerHalf.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9662654E1D0B0CD10067E7E5 /* SnapchatViewControllerHalf.xib */; };
+		966265541D0B18270067E7E5 /* symbol-coffee-300.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265531D0B18270067E7E5 /* symbol-coffee-300.png */; };
+		966265561D0B1A7B0067E7E5 /* poker-card-template-green-infinity.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265551D0B1A7B0067E7E5 /* poker-card-template-green-infinity.png */; };
+		9662655C1D0B54620067E7E5 /* PrimitiveScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662655B1D0B54620067E7E5 /* PrimitiveScene.swift */; };
+		9662655E1D0B55920067E7E5 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9662655D1D0B55920067E7E5 /* SceneKit.framework */; };
+		966265611D0B5A560067E7E5 /* ConfettiSceneKitParticleSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 9662655F1D0B5A560067E7E5 /* ConfettiSceneKitParticleSystem.scnp */; };
+		966265621D0B5A560067E7E5 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265601D0B5A560067E7E5 /* confetti.png */; };
+		966265651D0B5CB10067E7E5 /* SpaceSceneKitParticelSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 966265631D0B5CB00067E7E5 /* SpaceSceneKitParticelSystem.scnp */; };
+		966265661D0B5CB10067E7E5 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265641D0B5CB10067E7E5 /* star.png */; };
+		966265691D0B5F260067E7E5 /* BokehSceneKitParticleSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 966265671D0B5F260067E7E5 /* BokehSceneKitParticleSystem.scnp */; };
+		9662656A1D0B5F260067E7E5 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 966265681D0B5F260067E7E5 /* bokeh.png */; };
+		9662656D1D0B632F0067E7E5 /* FireSceneKitParticleSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 9662656B1D0B632F0067E7E5 /* FireSceneKitParticleSystem.scnp */; };
+		9662656E1D0B632F0067E7E5 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 9662656C1D0B632F0067E7E5 /* spark.png */; };
+		966265701D0B63D20067E7E5 /* RainSceneKitParticleSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 9662656F1D0B63D20067E7E5 /* RainSceneKitParticleSystem.scnp */; };
+		966AFE7C1D0B65CE000AF5E0 /* notizblock-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 966AFE7B1D0B65CE000AF5E0 /* notizblock-bg.png */; };
+		966AFE7E1D0B6964000AF5E0 /* scrum-poker-menu-classic.png in Resources */ = {isa = PBXBuildFile; fileRef = 966AFE7D1D0B6964000AF5E0 /* scrum-poker-menu-classic.png */; };
+		966AFE801D0B6B4A000AF5E0 /* scrum-poker-menu-snapchat.png in Resources */ = {isa = PBXBuildFile; fileRef = 966AFE7F1D0B6B4A000AF5E0 /* scrum-poker-menu-snapchat.png */; };
+		966AFE821D0B6C9A000AF5E0 /* scrum-poker-menu-freestyle.png in Resources */ = {isa = PBXBuildFile; fileRef = 966AFE811D0B6C9A000AF5E0 /* scrum-poker-menu-freestyle.png */; };
+		966AFE851D0B6D57000AF5E0 /* SmokeSceneKitParticleSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 966AFE831D0B6D57000AF5E0 /* SmokeSceneKitParticleSystem.scnp */; };
+		966AFE861D0B6D57000AF5E0 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 966AFE841D0B6D57000AF5E0 /* smoke.png */; };
 		968D9E511D08A3D5001A2B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D9E501D08A3D5001A2B99 /* AppDelegate.swift */; };
 		968D9E531D08A3D5001A2B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D9E521D08A3D5001A2B99 /* ViewController.swift */; };
 		968D9E561D08A3D6001A2B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968D9E541D08A3D6001A2B99 /* Main.storyboard */; };
 		968D9E591D08A3D6001A2B99 /* six_scrum_poker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 968D9E571D08A3D6001A2B99 /* six_scrum_poker.xcdatamodeld */; };
 		968D9E5B1D08A3D6001A2B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968D9E5A1D08A3D6001A2B99 /* Assets.xcassets */; };
 		968D9E5E1D08A3D6001A2B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968D9E5C1D08A3D6001A2B99 /* LaunchScreen.storyboard */; };
+		96D93CB71D0BE01C00B6F9F2 /* ReactorSceneKitParticleSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 96D93CB61D0BE01C00B6F9F2 /* ReactorSceneKitParticleSystem.scnp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +106,45 @@
 		9662651C1D0AFB7B0067E7E5 /* poker-card-template-green-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-40.png"; sourceTree = "<group>"; };
 		9662651D1D0AFB7B0067E7E5 /* poker-card-template-green-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-100.png"; sourceTree = "<group>"; };
 		966265271D0AFB880067E7E5 /* poker-card-template-green-0d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-0d.png"; sourceTree = "<group>"; };
+		966265291D0B0BB30067E7E5 /* SnapchatViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewController5.swift; sourceTree = "<group>"; };
+		9662652A1D0B0BB30067E7E5 /* SnapchatViewController5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewController5.xib; sourceTree = "<group>"; };
+		9662652D1D0B0BC60067E7E5 /* SnapchatViewController8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewController8.swift; sourceTree = "<group>"; };
+		9662652E1D0B0BC60067E7E5 /* SnapchatViewController8.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewController8.xib; sourceTree = "<group>"; };
+		966265311D0B0BD30067E7E5 /* SnapchatViewController13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewController13.swift; sourceTree = "<group>"; };
+		966265321D0B0BD30067E7E5 /* SnapchatViewController13.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewController13.xib; sourceTree = "<group>"; };
+		966265351D0B0BE90067E7E5 /* SnapchatViewController20.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewController20.swift; sourceTree = "<group>"; };
+		966265361D0B0BE90067E7E5 /* SnapchatViewController20.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewController20.xib; sourceTree = "<group>"; };
+		966265391D0B0C080067E7E5 /* SnapchatViewController40.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewController40.swift; sourceTree = "<group>"; };
+		9662653A1D0B0C080067E7E5 /* SnapchatViewController40.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewController40.xib; sourceTree = "<group>"; };
+		9662653D1D0B0C1C0067E7E5 /* SnapchatViewController100.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewController100.swift; sourceTree = "<group>"; };
+		9662653E1D0B0C1C0067E7E5 /* SnapchatViewController100.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewController100.xib; sourceTree = "<group>"; };
+		966265411D0B0C410067E7E5 /* SnapchatViewControllerQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewControllerQuestion.swift; sourceTree = "<group>"; };
+		966265421D0B0C410067E7E5 /* SnapchatViewControllerQuestion.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewControllerQuestion.xib; sourceTree = "<group>"; };
+		966265451D0B0C530067E7E5 /* SnapchatViewControllerCoffee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewControllerCoffee.swift; sourceTree = "<group>"; };
+		966265461D0B0C530067E7E5 /* SnapchatViewControllerCoffee.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewControllerCoffee.xib; sourceTree = "<group>"; };
+		966265491D0B0C690067E7E5 /* SnapchatViewControllerInfinity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewControllerInfinity.swift; sourceTree = "<group>"; };
+		9662654A1D0B0C690067E7E5 /* SnapchatViewControllerInfinity.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewControllerInfinity.xib; sourceTree = "<group>"; };
+		9662654D1D0B0CD10067E7E5 /* SnapchatViewControllerHalf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewControllerHalf.swift; sourceTree = "<group>"; };
+		9662654E1D0B0CD10067E7E5 /* SnapchatViewControllerHalf.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewControllerHalf.xib; sourceTree = "<group>"; };
+		966265531D0B18270067E7E5 /* symbol-coffee-300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "symbol-coffee-300.png"; sourceTree = "<group>"; };
+		966265551D0B1A7B0067E7E5 /* poker-card-template-green-infinity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-infinity.png"; sourceTree = "<group>"; };
+		9662655B1D0B54620067E7E5 /* PrimitiveScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimitiveScene.swift; sourceTree = "<group>"; };
+		9662655D1D0B55920067E7E5 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		9662655F1D0B5A560067E7E5 /* ConfettiSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = ConfettiSceneKitParticleSystem.scnp; sourceTree = "<group>"; };
+		966265601D0B5A560067E7E5 /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
+		966265631D0B5CB00067E7E5 /* SpaceSceneKitParticelSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = SpaceSceneKitParticelSystem.scnp; sourceTree = "<group>"; };
+		966265641D0B5CB10067E7E5 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		966265671D0B5F260067E7E5 /* BokehSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = BokehSceneKitParticleSystem.scnp; sourceTree = "<group>"; };
+		966265681D0B5F260067E7E5 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		9662656B1D0B632F0067E7E5 /* FireSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = FireSceneKitParticleSystem.scnp; sourceTree = "<group>"; };
+		9662656C1D0B632F0067E7E5 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		9662656F1D0B63D20067E7E5 /* RainSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = RainSceneKitParticleSystem.scnp; sourceTree = "<group>"; };
+		966AFE7B1D0B65CE000AF5E0 /* notizblock-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notizblock-bg.png"; path = "../notizblock-bg.png"; sourceTree = "<group>"; };
+		966AFE7D1D0B6964000AF5E0 /* scrum-poker-menu-classic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "scrum-poker-menu-classic.png"; path = "../scrum-poker-menu-classic.png"; sourceTree = "<group>"; };
+		966AFE7F1D0B6B4A000AF5E0 /* scrum-poker-menu-snapchat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "scrum-poker-menu-snapchat.png"; path = "../scrum-poker-menu-snapchat.png"; sourceTree = "<group>"; };
+		966AFE811D0B6C9A000AF5E0 /* scrum-poker-menu-freestyle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "scrum-poker-menu-freestyle.png"; path = "../scrum-poker-menu-freestyle.png"; sourceTree = "<group>"; };
+		966AFE831D0B6D57000AF5E0 /* SmokeSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = SmokeSceneKitParticleSystem.scnp; sourceTree = "<group>"; };
+		966AFE841D0B6D57000AF5E0 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
 		968D9E4D1D08A3D5001A2B99 /* six-scrum-poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "six-scrum-poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		968D9E501D08A3D5001A2B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		968D9E521D08A3D5001A2B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +153,7 @@
 		968D9E5A1D08A3D6001A2B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		968D9E5D1D08A3D6001A2B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		968D9E5F1D08A3D6001A2B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D93CB61D0BE01C00B6F9F2 /* ReactorSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = ReactorSceneKitParticleSystem.scnp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9662655E1D0B55920067E7E5 /* SceneKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,8 +171,14 @@
 		968D9E441D08A3D5001A2B99 = {
 			isa = PBXGroup;
 			children = (
+				9662655D1D0B55920067E7E5 /* SceneKit.framework */,
 				968D9E4F1D08A3D5001A2B99 /* six-scrum-poker */,
 				968D9E4E1D08A3D5001A2B99 /* Products */,
+				966AFE811D0B6C9A000AF5E0 /* scrum-poker-menu-freestyle.png */,
+				966AFE7F1D0B6B4A000AF5E0 /* scrum-poker-menu-snapchat.png */,
+				966AFE7D1D0B6964000AF5E0 /* scrum-poker-menu-classic.png */,
+				966AFE7B1D0B65CE000AF5E0 /* notizblock-bg.png */,
+				966265531D0B18270067E7E5 /* symbol-coffee-300.png */,
 				9662650F1D0AFB650067E7E5 /* poker-card-template-green-0.png */,
 				966265111D0AFB710067E7E5 /* poker-card-template-green-0a.png */,
 				966265121D0AFB710067E7E5 /* poker-card-template-green-0c.png */,
@@ -105,6 +192,7 @@
 				9662651B1D0AFB7B0067E7E5 /* poker-card-template-green-20.png */,
 				9662651C1D0AFB7B0067E7E5 /* poker-card-template-green-40.png */,
 				9662651D1D0AFB7B0067E7E5 /* poker-card-template-green-100.png */,
+				966265551D0B1A7B0067E7E5 /* poker-card-template-green-infinity.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,17 +211,50 @@
 				968D9E521D08A3D5001A2B99 /* ViewController.swift */,
 				966264FF1D0ABA7D0067E7E5 /* ClassicViewController.swift */,
 				966265031D0AC0F20067E7E5 /* ClassicDetailsViewController.swift */,
+				9662656B1D0B632F0067E7E5 /* FireSceneKitParticleSystem.scnp */,
+				9662656C1D0B632F0067E7E5 /* spark.png */,
+				966265631D0B5CB00067E7E5 /* SpaceSceneKitParticelSystem.scnp */,
+				96D93CB61D0BE01C00B6F9F2 /* ReactorSceneKitParticleSystem.scnp */,
+				966265641D0B5CB10067E7E5 /* star.png */,
+				9662655F1D0B5A560067E7E5 /* ConfettiSceneKitParticleSystem.scnp */,
+				966265601D0B5A560067E7E5 /* confetti.png */,
+				966265671D0B5F260067E7E5 /* BokehSceneKitParticleSystem.scnp */,
+				966265681D0B5F260067E7E5 /* bokeh.png */,
+				9662656F1D0B63D20067E7E5 /* RainSceneKitParticleSystem.scnp */,
+				966AFE831D0B6D57000AF5E0 /* SmokeSceneKitParticleSystem.scnp */,
+				966AFE841D0B6D57000AF5E0 /* smoke.png */,
+				9662655B1D0B54620067E7E5 /* PrimitiveScene.swift */,
+				966265071D0AF4660067E7E5 /* DrawingViewController.swift */,
 				966264ED1D0AAE170067E7E5 /* SnapchatViewController.swift */,
+				966265411D0B0C410067E7E5 /* SnapchatViewControllerQuestion.swift */,
+				966265421D0B0C410067E7E5 /* SnapchatViewControllerQuestion.xib */,
+				966265451D0B0C530067E7E5 /* SnapchatViewControllerCoffee.swift */,
+				966265461D0B0C530067E7E5 /* SnapchatViewControllerCoffee.xib */,
 				966264EF1D0AAF7B0067E7E5 /* SnapchatViewController0.swift */,
 				966264F01D0AAF7B0067E7E5 /* SnapchatViewController0.xib */,
+				9662654D1D0B0CD10067E7E5 /* SnapchatViewControllerHalf.swift */,
+				9662654E1D0B0CD10067E7E5 /* SnapchatViewControllerHalf.xib */,
 				966264F31D0AAF8A0067E7E5 /* SnapchatViewController1.swift */,
 				966264F41D0AAF8A0067E7E5 /* SnapchatViewController1.xib */,
 				966264F71D0AAF980067E7E5 /* SnapchatViewController2.swift */,
 				966264F81D0AAF980067E7E5 /* SnapchatViewController2.xib */,
 				966264FB1D0AAFAC0067E7E5 /* SnapchatViewController3.swift */,
 				966264FC1D0AAFAD0067E7E5 /* SnapchatViewController3.xib */,
+				966265291D0B0BB30067E7E5 /* SnapchatViewController5.swift */,
+				9662652A1D0B0BB30067E7E5 /* SnapchatViewController5.xib */,
+				9662652D1D0B0BC60067E7E5 /* SnapchatViewController8.swift */,
+				9662652E1D0B0BC60067E7E5 /* SnapchatViewController8.xib */,
+				966265311D0B0BD30067E7E5 /* SnapchatViewController13.swift */,
+				966265321D0B0BD30067E7E5 /* SnapchatViewController13.xib */,
+				966265351D0B0BE90067E7E5 /* SnapchatViewController20.swift */,
+				966265361D0B0BE90067E7E5 /* SnapchatViewController20.xib */,
+				966265391D0B0C080067E7E5 /* SnapchatViewController40.swift */,
+				9662653A1D0B0C080067E7E5 /* SnapchatViewController40.xib */,
+				9662653D1D0B0C1C0067E7E5 /* SnapchatViewController100.swift */,
+				9662653E1D0B0C1C0067E7E5 /* SnapchatViewController100.xib */,
+				966265491D0B0C690067E7E5 /* SnapchatViewControllerInfinity.swift */,
+				9662654A1D0B0C690067E7E5 /* SnapchatViewControllerInfinity.xib */,
 				968D9E541D08A3D6001A2B99 /* Main.storyboard */,
-				966265071D0AF4660067E7E5 /* DrawingViewController.swift */,
 				968D9E5A1D08A3D6001A2B99 /* Assets.xcassets */,
 				968D9E5C1D08A3D6001A2B99 /* LaunchScreen.storyboard */,
 				968D9E5F1D08A3D6001A2B99 /* Info.plist */,
@@ -204,23 +325,51 @@
 				966264F61D0AAF8A0067E7E5 /* SnapchatViewController1.xib in Resources */,
 				968D9E5E1D08A3D6001A2B99 /* LaunchScreen.storyboard in Resources */,
 				966265281D0AFB880067E7E5 /* poker-card-template-green-0d.png in Resources */,
+				966265621D0B5A560067E7E5 /* confetti.png in Resources */,
 				966265141D0AFB710067E7E5 /* poker-card-template-green-0c.png in Resources */,
+				966AFE821D0B6C9A000AF5E0 /* scrum-poker-menu-freestyle.png in Resources */,
+				9662656E1D0B632F0067E7E5 /* spark.png in Resources */,
+				966265341D0B0BD30067E7E5 /* SnapchatViewController13.xib in Resources */,
+				966265611D0B5A560067E7E5 /* ConfettiSceneKitParticleSystem.scnp in Resources */,
 				966264F21D0AAF7B0067E7E5 /* SnapchatViewController0.xib in Resources */,
+				966AFE851D0B6D57000AF5E0 /* SmokeSceneKitParticleSystem.scnp in Resources */,
+				966AFE7E1D0B6964000AF5E0 /* scrum-poker-menu-classic.png in Resources */,
 				966265241D0AFB7B0067E7E5 /* poker-card-template-green-20.png in Resources */,
+				9662652C1D0B0BB30067E7E5 /* SnapchatViewController5.xib in Resources */,
+				966265301D0B0BC60067E7E5 /* SnapchatViewController8.xib in Resources */,
 				966264FA1D0AAF980067E7E5 /* SnapchatViewController2.xib in Resources */,
 				9662651E1D0AFB7B0067E7E5 /* poker-card-template-green-1.png in Resources */,
+				9662656A1D0B5F260067E7E5 /* bokeh.png in Resources */,
 				966265231D0AFB7B0067E7E5 /* poker-card-template-green-13.png in Resources */,
+				966265401D0B0C1C0067E7E5 /* SnapchatViewController100.xib in Resources */,
+				9662653C1D0B0C080067E7E5 /* SnapchatViewController40.xib in Resources */,
 				966265251D0AFB7B0067E7E5 /* poker-card-template-green-40.png in Resources */,
 				966265201D0AFB7B0067E7E5 /* poker-card-template-green-3.png in Resources */,
 				968D9E5B1D08A3D6001A2B99 /* Assets.xcassets in Resources */,
 				966264FE1D0AAFAD0067E7E5 /* SnapchatViewController3.xib in Resources */,
+				966265541D0B18270067E7E5 /* symbol-coffee-300.png in Resources */,
+				966265441D0B0C410067E7E5 /* SnapchatViewControllerQuestion.xib in Resources */,
+				966AFE801D0B6B4A000AF5E0 /* scrum-poker-menu-snapchat.png in Resources */,
+				966265501D0B0CD10067E7E5 /* SnapchatViewControllerHalf.xib in Resources */,
+				966265701D0B63D20067E7E5 /* RainSceneKitParticleSystem.scnp in Resources */,
+				9662654C1D0B0C690067E7E5 /* SnapchatViewControllerInfinity.xib in Resources */,
+				9662656D1D0B632F0067E7E5 /* FireSceneKitParticleSystem.scnp in Resources */,
+				966265691D0B5F260067E7E5 /* BokehSceneKitParticleSystem.scnp in Resources */,
+				966265381D0B0BE90067E7E5 /* SnapchatViewController20.xib in Resources */,
 				9662651F1D0AFB7B0067E7E5 /* poker-card-template-green-2.png in Resources */,
 				966265101D0AFB650067E7E5 /* poker-card-template-green-0.png in Resources */,
 				966265221D0AFB7B0067E7E5 /* poker-card-template-green-8.png in Resources */,
 				966265211D0AFB7B0067E7E5 /* poker-card-template-green-5.png in Resources */,
+				966265661D0B5CB10067E7E5 /* star.png in Resources */,
+				966AFE861D0B6D57000AF5E0 /* smoke.png in Resources */,
+				966AFE7C1D0B65CE000AF5E0 /* notizblock-bg.png in Resources */,
+				966265481D0B0C530067E7E5 /* SnapchatViewControllerCoffee.xib in Resources */,
 				968D9E561D08A3D6001A2B99 /* Main.storyboard in Resources */,
 				966265131D0AFB710067E7E5 /* poker-card-template-green-0a.png in Resources */,
 				966265261D0AFB7B0067E7E5 /* poker-card-template-green-100.png in Resources */,
+				966265561D0B1A7B0067E7E5 /* poker-card-template-green-infinity.png in Resources */,
+				966265651D0B5CB10067E7E5 /* SpaceSceneKitParticelSystem.scnp in Resources */,
+				96D93CB71D0BE01C00B6F9F2 /* ReactorSceneKitParticleSystem.scnp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,16 +380,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9662653F1D0B0C1C0067E7E5 /* SnapchatViewController100.swift in Sources */,
 				966265001D0ABA7D0067E7E5 /* ClassicViewController.swift in Sources */,
+				9662654B1D0B0C690067E7E5 /* SnapchatViewControllerInfinity.swift in Sources */,
 				966264EE1D0AAE170067E7E5 /* SnapchatViewController.swift in Sources */,
 				966265041D0AC0F20067E7E5 /* ClassicDetailsViewController.swift in Sources */,
 				968D9E591D08A3D6001A2B99 /* six_scrum_poker.xcdatamodeld in Sources */,
 				968D9E531D08A3D5001A2B99 /* ViewController.swift in Sources */,
+				9662652F1D0B0BC60067E7E5 /* SnapchatViewController8.swift in Sources */,
+				9662654F1D0B0CD10067E7E5 /* SnapchatViewControllerHalf.swift in Sources */,
+				966265471D0B0C530067E7E5 /* SnapchatViewControllerCoffee.swift in Sources */,
 				966264F11D0AAF7B0067E7E5 /* SnapchatViewController0.swift in Sources */,
+				966265431D0B0C410067E7E5 /* SnapchatViewControllerQuestion.swift in Sources */,
 				966265081D0AF4660067E7E5 /* DrawingViewController.swift in Sources */,
 				966264FD1D0AAFAD0067E7E5 /* SnapchatViewController3.swift in Sources */,
 				966264F51D0AAF8A0067E7E5 /* SnapchatViewController1.swift in Sources */,
 				966264F91D0AAF980067E7E5 /* SnapchatViewController2.swift in Sources */,
+				9662652B1D0B0BB30067E7E5 /* SnapchatViewController5.swift in Sources */,
+				966265371D0B0BE90067E7E5 /* SnapchatViewController20.swift in Sources */,
+				9662655C1D0B54620067E7E5 /* PrimitiveScene.swift in Sources */,
+				966265331D0B0BD30067E7E5 /* SnapchatViewController13.swift in Sources */,
+				9662653B1D0B0C080067E7E5 /* SnapchatViewController40.swift in Sources */,
 				968D9E511D08A3D5001A2B99 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

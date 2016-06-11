@@ -18,29 +18,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scrum Poker Styles..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPn-LZ-bqi">
-                                <rect key="frame" x="25" y="109" width="555" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUx-AL-lYW">
-                                <rect key="frame" x="163" y="167" width="274" height="30"/>
-                                <state key="normal" title="Classic Style"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUx-AL-lYW">
+                                <rect key="frame" x="0.0" y="64" width="400" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="Muj-JA-LtR"/>
+                                </constraints>
+                                <state key="normal" title="Classic Style" image="scrum-poker-menu-classic.png"/>
                                 <connections>
                                     <segue destination="BOC-TB-m1c" kind="show" id="dDD-Co-qP0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQx-t0-JLS">
-                                <rect key="frame" x="155" y="218" width="290" height="30"/>
-                                <state key="normal" title="Snapchat Style"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQx-t0-JLS">
+                                <rect key="frame" x="0.0" y="187" width="400" height="120"/>
+                                <state key="normal" title="Snapchat Style" image="scrum-poker-menu-snapchat.png"/>
                                 <connections>
                                     <segue destination="NOU-G4-SG9" kind="show" id="RXp-Q9-dos"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lbq-2A-cc1">
-                                <rect key="frame" x="20" y="279" width="560" height="30"/>
-                                <state key="normal" title="Free Style"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lbq-2A-cc1">
+                                <rect key="frame" x="0.0" y="310" width="400" height="120"/>
+                                <state key="normal" title="Free Style" image="scrum-poker-menu-freestyle.png"/>
                                 <connections>
                                     <segue destination="BC5-vh-Neu" kind="show" id="zyl-mq-cI7"/>
                                 </connections>
@@ -48,18 +45,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="DUx-AL-lYW" firstAttribute="top" secondItem="PPn-LZ-bqi" secondAttribute="bottom" constant="37" id="37Y-if-ic4"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Lbq-2A-cc1" secondAttribute="trailing" id="60H-8R-rQM"/>
-                            <constraint firstItem="Lbq-2A-cc1" firstAttribute="top" secondItem="IQx-t0-JLS" secondAttribute="bottom" constant="31" id="7Bc-85-5JR"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="IQx-t0-JLS" secondAttribute="trailing" constant="135" id="7L1-43-zIJ"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="Lbq-2A-cc1" secondAttribute="leading" id="DGJ-xz-CWr"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="DUx-AL-lYW" secondAttribute="trailing" constant="143" id="Gfc-8k-qhw"/>
-                            <constraint firstItem="IQx-t0-JLS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="135" id="YB3-Rp-CZb"/>
-                            <constraint firstItem="PPn-LZ-bqi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="ZPg-BZ-COE"/>
-                            <constraint firstItem="DUx-AL-lYW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="143" id="adg-Rm-dpJ"/>
-                            <constraint firstItem="PPn-LZ-bqi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="it3-Y5-euV"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="PPn-LZ-bqi" secondAttribute="trailing" id="mQk-wK-xhR"/>
-                            <constraint firstItem="IQx-t0-JLS" firstAttribute="top" secondItem="DUx-AL-lYW" secondAttribute="bottom" constant="21" id="q5G-pg-Xyb"/>
+                            <constraint firstItem="DUx-AL-lYW" firstAttribute="trailing" secondItem="IQx-t0-JLS" secondAttribute="trailing" id="NSf-mb-tyq"/>
+                            <constraint firstItem="DUx-AL-lYW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Nx7-tC-jW6"/>
+                            <constraint firstItem="DUx-AL-lYW" firstAttribute="leading" secondItem="Lbq-2A-cc1" secondAttribute="leading" id="PsN-gb-eNu"/>
+                            <constraint firstItem="IQx-t0-JLS" firstAttribute="top" secondItem="DUx-AL-lYW" secondAttribute="bottom" constant="3" id="Z1D-Cq-phI"/>
+                            <constraint firstItem="Lbq-2A-cc1" firstAttribute="top" secondItem="IQx-t0-JLS" secondAttribute="bottom" constant="3" id="c0s-Mz-O3D"/>
+                            <constraint firstItem="DUx-AL-lYW" firstAttribute="trailing" secondItem="Lbq-2A-cc1" secondAttribute="trailing" id="cAn-ZV-DPU"/>
+                            <constraint firstItem="DUx-AL-lYW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="dZ3-I6-Xww"/>
+                            <constraint firstItem="DUx-AL-lYW" firstAttribute="leading" secondItem="IQx-t0-JLS" secondAttribute="leading" id="xuC-AS-ggR"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="SIX Scrum Poker" id="Kgg-AW-rJL"/>
@@ -80,20 +73,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free Style Card" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0R-KC-KCg">
-                                <rect key="frame" x="20" y="84" width="560" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notizblock-bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZRj-9Z-Y9d">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="600" id="Mw3-20-pqw"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6si-S5-5LV">
+                                <rect key="frame" x="20" y="75" width="560" height="30"/>
+                                <state key="normal" title="Freestyle Clear"/>
+                                <connections>
+                                    <action selector="buttonClearPressed:" destination="BC5-vh-Neu" eventType="touchUpInside" id="VhC-ss-PBC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="leadingMargin" secondItem="i0R-KC-KCg" secondAttribute="leading" id="Fok-c3-fNG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="i0R-KC-KCg" secondAttribute="trailing" id="wBW-AW-soq"/>
-                            <constraint firstItem="i0R-KC-KCg" firstAttribute="top" secondItem="mBf-jO-id1" secondAttribute="bottom" constant="20" id="wfg-9V-6Wj"/>
+                            <constraint firstItem="ZRj-9Z-Y9d" firstAttribute="bottom" secondItem="bc5-BR-Kls" secondAttribute="top" id="4yj-IO-Azh"/>
+                            <constraint firstItem="ZRj-9Z-Y9d" firstAttribute="centerX" secondItem="6si-S5-5LV" secondAttribute="centerX" id="EPu-xz-w0q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6si-S5-5LV" secondAttribute="trailing" id="SV0-Le-Lb6"/>
+                            <constraint firstItem="6si-S5-5LV" firstAttribute="top" secondItem="mBf-jO-id1" secondAttribute="bottom" constant="11" id="dx2-OZ-JNn"/>
+                            <constraint firstItem="ZRj-9Z-Y9d" firstAttribute="leading" secondItem="6r4-qJ-al5" secondAttribute="leading" id="pfc-Es-wCg"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="6si-S5-5LV" secondAttribute="leading" id="pgG-6N-pGA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="drawImageView" destination="ZRj-9Z-Y9d" id="GKS-Xv-xZl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dbM-va-p3g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -146,94 +153,106 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classic Scrum Poker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T00-W8-eaU">
-                                <rect key="frame" x="20" y="86" width="560" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGC-mO-P6U">
-                                <rect key="frame" x="109" y="120" width="122" height="120"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGC-mO-P6U">
+                                <rect key="frame" x="20" y="77" width="100" height="100"/>
                                 <state key="normal" title="Card-0" image="poker-card-template-green-0.png"/>
                                 <connections>
                                     <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCard0" id="298-gj-bdv"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrB-X6-yYM">
+                                <rect key="frame" x="150" y="77" width="100" height="100"/>
+                                <state key="normal" title="Card-Half" image="poker-card-template-green-0a.png"/>
+                                <connections>
+                                    <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCardHalf" id="ZGm-fT-oNk"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vtu-uW-NCx">
-                                <rect key="frame" x="369" y="116" width="128" height="128"/>
+                                <rect key="frame" x="280" y="77" width="100" height="100"/>
                                 <state key="normal" title="Card-1" image="poker-card-template-green-1.png"/>
                                 <connections>
                                     <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCard1" id="F7h-D3-VkL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tv-Ff-kLO">
-                                <rect key="frame" x="107" y="248" width="124" height="120"/>
+                                <rect key="frame" x="20" y="183" width="100" height="100"/>
                                 <state key="normal" title="Card-2" image="poker-card-template-green-2.png"/>
                                 <connections>
                                     <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCard2" id="TJm-9H-8c9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrB-X6-yYM">
-                                <rect key="frame" x="239" y="120" width="122" height="120"/>
-                                <state key="normal" title="Card-Half" image="poker-card-template-green-0a.png"/>
-                                <connections>
-                                    <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCardHalf" id="ZGm-fT-oNk"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wa3-WA-1tc">
-                                <rect key="frame" x="239" y="248" width="121" height="120"/>
+                                <rect key="frame" x="150" y="183" width="100" height="100"/>
                                 <state key="normal" title="Card-3" image="poker-card-template-green-3.png"/>
                                 <connections>
                                     <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCard3" id="ZNo-q3-UIo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vH0-ZA-nAC">
-                                <rect key="frame" x="372" y="248" width="122" height="120"/>
+                                <rect key="frame" x="279" y="185" width="100" height="100"/>
                                 <state key="normal" title="Card-5" image="poker-card-template-green-5.png"/>
                                 <connections>
                                     <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCard5" id="Gz5-rM-8Zo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4u-Q3-Q87">
-                                <rect key="frame" x="109" y="376" width="125" height="120"/>
+                                <rect key="frame" x="20" y="291" width="100" height="100"/>
                                 <state key="normal" title="Card-8" image="poker-card-template-green-8.png"/>
                                 <connections>
                                     <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCard8" id="LyH-N9-HFs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHH-Fg-NeW">
-                                <rect key="frame" x="239" y="376" width="122" height="120"/>
+                                <rect key="frame" x="150" y="291" width="100" height="100"/>
                                 <state key="normal" title="Card-13" image="poker-card-template-green-13.png"/>
                                 <connections>
                                     <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCard13" id="cay-uN-RBT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebq-lE-UZr">
-                                <rect key="frame" x="372" y="376" width="122" height="120"/>
+                                <rect key="frame" x="280" y="293" width="100" height="100"/>
                                 <state key="normal" title="Card-20" image="poker-card-template-green-20.png"/>
                                 <connections>
                                     <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCard20" id="o6P-RQ-u7O"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzE-t9-kPr">
-                                <rect key="frame" x="109" y="476" width="121" height="120"/>
+                                <rect key="frame" x="20" y="399" width="100" height="100"/>
                                 <state key="normal" title="Card-40" image="poker-card-template-green-40.png"/>
+                                <connections>
+                                    <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCard40" id="vY1-cf-hK3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIk-KH-8DO">
-                                <rect key="frame" x="238" y="476" width="121" height="120"/>
+                                <rect key="frame" x="150" y="399" width="100" height="100"/>
                                 <state key="normal" title="Card-100" image="poker-card-template-green-100.png"/>
+                                <connections>
+                                    <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCard100" id="h9Z-kP-WWu"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHV-5y-COw">
-                                <rect key="frame" x="390" y="522" width="86" height="30"/>
-                                <state key="normal" title="Card-Infinity"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHV-5y-COw">
+                                <rect key="frame" x="280" y="399" width="100" height="100"/>
+                                <state key="normal" title="Card-Infinity" image="poker-card-template-green-infinity.png"/>
+                                <connections>
+                                    <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCardInfinity" id="bOW-9m-Rx0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4W6-TU-Qp8">
+                                <rect key="frame" x="79" y="500" width="100" height="100"/>
+                                <state key="normal" title="Card-Question" image="poker-card-template-green-0c.png"/>
+                                <connections>
+                                    <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCardQuestion" id="gmf-VL-Fo8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8je-i9-WBO">
+                                <rect key="frame" x="218" y="500" width="100" height="100"/>
+                                <state key="normal" title="Card-Coffee" image="poker-card-template-green-0d.png"/>
+                                <connections>
+                                    <segue destination="ZDh-Gg-Mer" kind="show" identifier="showCardCoffee" id="yO4-de-RAS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="T00-W8-eaU" firstAttribute="top" secondItem="Qe7-ZV-yUq" secondAttribute="bottom" constant="22" id="8ko-Q6-P0X"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="T00-W8-eaU" secondAttribute="leading" id="qoC-rb-VaF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="T00-W8-eaU" secondAttribute="trailing" id="zx6-BM-9sM"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mzh-as-At7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -248,25 +267,35 @@
                         <viewControllerLayoutGuide type="top" id="pcq-An-IH7"/>
                         <viewControllerLayoutGuide type="bottom" id="wgw-3V-GDA"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="zhC-MY-cyV">
+                    <view key="view" contentMode="scaleToFill" id="zhC-MY-cyV" customClass="SCNView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7n-Np-xi0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7n-Np-xi0">
                                 <rect key="frame" x="-102" y="126" width="804" height="348"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="300"/>
                                 <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="small" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BbL-7b-xZc">
+                                <rect key="frame" x="44" y="184" width="513" height="232"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="200"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="g7n-Np-xi0" firstAttribute="centerX" secondItem="zhC-MY-cyV" secondAttribute="centerX" id="1pa-hy-SPu"/>
+                            <constraint firstItem="BbL-7b-xZc" firstAttribute="centerX" secondItem="zhC-MY-cyV" secondAttribute="centerX" id="55s-p0-HcZ"/>
                             <constraint firstItem="g7n-Np-xi0" firstAttribute="centerY" secondItem="zhC-MY-cyV" secondAttribute="centerY" id="6yy-9Q-WSc"/>
+                            <constraint firstItem="BbL-7b-xZc" firstAttribute="centerY" secondItem="zhC-MY-cyV" secondAttribute="centerY" id="dFk-dL-w73"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="labelPokerCard" destination="g7n-Np-xi0" id="E8P-SD-mo7"/>
+                        <outlet property="labelPokerCardSmall" destination="BbL-7b-xZc" id="WBU-iz-vdb"/>
+                        <outlet property="particles" destination="zhC-MY-cyV" id="omu-G3-tVb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8c4-VN-huj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -293,8 +322,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="notizblock-bg.png" width="448" height="646"/>
         <image name="poker-card-template-green-0.png" width="120" height="120"/>
         <image name="poker-card-template-green-0a.png" width="120" height="120"/>
+        <image name="poker-card-template-green-0c.png" width="120" height="120"/>
+        <image name="poker-card-template-green-0d.png" width="120" height="120"/>
         <image name="poker-card-template-green-1.png" width="120" height="120"/>
         <image name="poker-card-template-green-100.png" width="120" height="120"/>
         <image name="poker-card-template-green-13.png" width="120" height="120"/>
@@ -304,8 +336,12 @@
         <image name="poker-card-template-green-40.png" width="120" height="120"/>
         <image name="poker-card-template-green-5.png" width="120" height="120"/>
         <image name="poker-card-template-green-8.png" width="120" height="120"/>
+        <image name="poker-card-template-green-infinity.png" width="120" height="120"/>
+        <image name="scrum-poker-menu-classic.png" width="400" height="120"/>
+        <image name="scrum-poker-menu-freestyle.png" width="400" height="120"/>
+        <image name="scrum-poker-menu-snapchat.png" width="400" height="120"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="TJm-9H-8c9"/>
+        <segue reference="yO4-de-RAS"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -26,56 +26,84 @@ class ClassicViewController: UIViewController {
         NSLog("Segue is: " + segue.identifier!)
         
         
-        if segue.identifier == "showCard0" {
-            detailView.labelCardText = "0"
-            detailView.view.backgroundColor = UIColor(red: 0, green: 165/255, blue: 0, alpha: 1)
+        if segue.identifier == "showCardQuestion" {
+            detailView.labelCardText = "?"
+            //detailView.view.backgroundColor = UIColor(red: 0, green: 165/255, blue: 0, alpha: 1)
+            detailView.view.backgroundColor = UIColor.lightGrayColor()
+            NSLog("Pressed for Card ?")
 
+        } else if segue.identifier == "showCardCoffee"  {
+            detailView.labelCardText = "☕️"
+            detailView.view.backgroundColor = UIColor.lightGrayColor()
+            NSLog("Pressed for Card coffee")
+
+        } else if segue.identifier == "showCard0"  {
+            detailView.labelCardText = "0"
+            detailView.view.backgroundColor = UIColor.lightGrayColor()
+            NSLog("Pressed for Card 0")
+            
         } else if segue.identifier == "showCardHalf"  {
             detailView.labelCardText = "½"
-            detailView.view.backgroundColor = UIColor(red: 1, green: 165/255, blue: 1, alpha: 1)
+            detailView.view.backgroundColor = UIColor.lightGrayColor()
+            NSLog("Pressed for Card Half")
             
         } else if segue.identifier == "showCard1"  {
             detailView.labelCardText = "1"
-            detailView.view.backgroundColor = UIColor(red: 2, green: 165/255, blue: 2, alpha: 1)
+            detailView.view.backgroundColor = UIColor.grayColor()
+            NSLog("Pressed for Card 1")
 
         } else if segue.identifier == "showCard2"  {
             detailView.labelCardText = "2"
-            detailView.view.backgroundColor = UIColor(red: 3, green: 165/255, blue: 3, alpha: 1)
+            detailView.view.backgroundColor = UIColor.lightGrayColor().colorWithAlphaComponent(0.75)
+            NSLog("Pressed for Card 2")
 
         } else if segue.identifier == "showCard3"  {
             detailView.labelCardText = "3"
-            detailView.view.backgroundColor = UIColor(red: 4, green: 165/255, blue: 4, alpha: 1)
+            detailView.view.backgroundColor = UIColor.greenColor().colorWithAlphaComponent(0.75)
+            NSLog("Pressed for Card 3")
 
         } else if segue.identifier == "showCard5"  {
             detailView.labelCardText = "5"
-            detailView.view.backgroundColor = UIColor(red: 5, green: 165/255, blue: 5, alpha: 1)
+            detailView.view.backgroundColor = UIColor.yellowColor().colorWithAlphaComponent(0.75)
+            detailView.view.opaque = true
+            NSLog("Pressed for Card 5")
 
         } else if segue.identifier == "showCard8"  {
             detailView.labelCardText = "8"
-            detailView.view.backgroundColor = UIColor(red: 6, green: 165/255, blue: 6, alpha: 1)
+            detailView.view.backgroundColor = UIColor.orangeColor()
+            detailView.labelPokerCard.textColor = UIColor.lightGrayColor()
+            NSLog("Pressed for Card 8")
 
         } else if segue.identifier == "showCard13"  {
             detailView.labelCardText = "13"
-            detailView.view.backgroundColor = UIColor(red: 7, green: 165/255, blue: 7, alpha: 1)
+            detailView.view.backgroundColor = UIColor.blueColor().colorWithAlphaComponent(0.75)
+            NSLog("Pressed for Card 13")
 
         } else if segue.identifier == "showCard20"  {
             detailView.labelCardText = "20"
-            detailView.view.backgroundColor = UIColor(red: 8, green: 165/255, blue: 8, alpha: 1)
+            detailView.view.backgroundColor = UIColor.redColor().colorWithAlphaComponent(0.75)
+            NSLog("Pressed for Card 20")
 
         } else if segue.identifier == "showCard40"  {
             detailView.labelCardText = "40"
-            detailView.view.backgroundColor = UIColor(red: 9, green: 165/255, blue: 9, alpha: 1)
+            detailView.view.backgroundColor = UIColor.purpleColor().colorWithAlphaComponent(0.75)
+            NSLog("Pressed for Card 40")
 
         } else if segue.identifier == "showCard100"  {
             detailView.labelCardText = "100"
-            detailView.view.backgroundColor = UIColor(red: 10, green: 165/255, blue: 10, alpha: 1)
+            detailView.view.backgroundColor = UIColor.brownColor().colorWithAlphaComponent(0.75)
+            detailView.labelPokerCard.hidden = true
+            detailView.labelPokerCardSmall.hidden = false
+            NSLog("Pressed for Card 100")
 
         } else if segue.identifier == "showCardInfinity"  {
             detailView.labelCardText = "∞"
-            detailView.view.backgroundColor = UIColor(red: 11, green: 165/255, blue: 11, alpha: 1)
+            detailView.view.backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.75)
+            detailView.labelPokerCard.textColor = UIColor.whiteColor()
+            NSLog("Pressed for Card Infinity")
             
         } else {
-            detailView.labelCardText = "unknown"
+            detailView.labelCardText = "na"
         }
     }
 

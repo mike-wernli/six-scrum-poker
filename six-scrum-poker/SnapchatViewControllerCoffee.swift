@@ -1,5 +1,5 @@
 //
-//  SnapchatViewController1.swift
+//  SnapchatViewControllerCoffee.swift
 //  six-scrum-poker
 //
 //  Created by codecamp on 10.06.16.
@@ -8,15 +8,12 @@
 
 import UIKit
 
-class SnapchatViewController1: UIViewController {
+class SnapchatViewControllerCoffee: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        
-        
     }
 
     override func didReceiveMemoryWarning() {

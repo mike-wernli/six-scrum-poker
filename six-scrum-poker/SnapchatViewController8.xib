@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SnapchatViewController1" customModule="six_scrum_poker" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SnapchatViewController8" customModule="six_scrum_poker" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -15,17 +15,17 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMx-Mi-FAr">
-                    <rect key="frame" x="296" y="289" width="8" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYF-WN-VJc">
+                    <rect key="frame" x="211" y="126" width="179" height="348"/>
                     <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="300"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="sMx-Mi-FAr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0Lc-Jm-Lnm"/>
-                <constraint firstItem="sMx-Mi-FAr" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="YO8-CD-UmG"/>
+                <constraint firstItem="wYF-WN-VJc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5wm-YJ-h98"/>
+                <constraint firstItem="wYF-WN-VJc" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="c6g-lg-pmR"/>
             </constraints>
         </view>
     </objects>
