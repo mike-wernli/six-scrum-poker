@@ -141,19 +141,19 @@
 		9662654E1D0B0CD10067E7E5 /* SnapchatViewControllerHalf.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewControllerHalf.xib; sourceTree = "<group>"; };
 		966265531D0B18270067E7E5 /* symbol-coffee-300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "symbol-coffee-300.png"; sourceTree = "<group>"; };
 		966265551D0B1A7B0067E7E5 /* poker-card-template-green-infinity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-card-template-green-infinity.png"; sourceTree = "<group>"; };
-		9662655B1D0B54620067E7E5 /* PrimitiveScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimitiveScene.swift; sourceTree = "<group>"; };
+		9662655B1D0B54620067E7E5 /* PrimitiveScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrimitiveScene.swift; path = "six-scrum-poker/PrimitiveScene.swift"; sourceTree = "<group>"; };
 		9662655D1D0B55920067E7E5 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
-		9662655F1D0B5A560067E7E5 /* ConfettiSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = ConfettiSceneKitParticleSystem.scnp; sourceTree = "<group>"; };
-		966265601D0B5A560067E7E5 /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
-		966265631D0B5CB00067E7E5 /* SpaceSceneKitParticelSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = SpaceSceneKitParticelSystem.scnp; sourceTree = "<group>"; };
-		966265641D0B5CB10067E7E5 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
-		966265671D0B5F260067E7E5 /* BokehSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = BokehSceneKitParticleSystem.scnp; sourceTree = "<group>"; };
-		966265681D0B5F260067E7E5 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
-		9662656B1D0B632F0067E7E5 /* FireSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = FireSceneKitParticleSystem.scnp; sourceTree = "<group>"; };
-		9662656C1D0B632F0067E7E5 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
-		9662656F1D0B63D20067E7E5 /* RainSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = RainSceneKitParticleSystem.scnp; sourceTree = "<group>"; };
-		966AFE831D0B6D57000AF5E0 /* SmokeSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = SmokeSceneKitParticleSystem.scnp; sourceTree = "<group>"; };
-		966AFE841D0B6D57000AF5E0 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		9662655F1D0B5A560067E7E5 /* ConfettiSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = ConfettiSceneKitParticleSystem.scnp; path = "six-scrum-poker/ConfettiSceneKitParticleSystem.scnp"; sourceTree = "<group>"; };
+		966265601D0B5A560067E7E5 /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = confetti.png; path = "six-scrum-poker/confetti.png"; sourceTree = "<group>"; };
+		966265631D0B5CB00067E7E5 /* SpaceSceneKitParticelSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = SpaceSceneKitParticelSystem.scnp; path = "six-scrum-poker/SpaceSceneKitParticelSystem.scnp"; sourceTree = "<group>"; };
+		966265641D0B5CB10067E7E5 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = "six-scrum-poker/star.png"; sourceTree = "<group>"; };
+		966265671D0B5F260067E7E5 /* BokehSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = BokehSceneKitParticleSystem.scnp; path = "six-scrum-poker/BokehSceneKitParticleSystem.scnp"; sourceTree = "<group>"; };
+		966265681D0B5F260067E7E5 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bokeh.png; path = "six-scrum-poker/bokeh.png"; sourceTree = "<group>"; };
+		9662656B1D0B632F0067E7E5 /* FireSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = FireSceneKitParticleSystem.scnp; path = "six-scrum-poker/FireSceneKitParticleSystem.scnp"; sourceTree = "<group>"; };
+		9662656C1D0B632F0067E7E5 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = "six-scrum-poker/spark.png"; sourceTree = "<group>"; };
+		9662656F1D0B63D20067E7E5 /* RainSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = RainSceneKitParticleSystem.scnp; path = "six-scrum-poker/RainSceneKitParticleSystem.scnp"; sourceTree = "<group>"; };
+		966AFE831D0B6D57000AF5E0 /* SmokeSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = SmokeSceneKitParticleSystem.scnp; path = "six-scrum-poker/SmokeSceneKitParticleSystem.scnp"; sourceTree = "<group>"; };
+		966AFE841D0B6D57000AF5E0 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smoke.png; path = "six-scrum-poker/smoke.png"; sourceTree = "<group>"; };
 		9679B5741D0C7A170021CAFB /* notizblock-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notizblock-bg.png"; sourceTree = "<group>"; };
 		9679B5751D0C7A170021CAFB /* scrum-poker-menu-classic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrum-poker-menu-classic.png"; sourceTree = "<group>"; };
 		9679B5761D0C7A170021CAFB /* scrum-poker-menu-freestyle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrum-poker-menu-freestyle.png"; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 		968D9E5A1D08A3D6001A2B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		968D9E5D1D08A3D6001A2B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		968D9E5F1D08A3D6001A2B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96D93CB61D0BE01C00B6F9F2 /* ReactorSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = ReactorSceneKitParticleSystem.scnp; sourceTree = "<group>"; };
+		96D93CB61D0BE01C00B6F9F2 /* ReactorSceneKitParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = ReactorSceneKitParticleSystem.scnp; path = "six-scrum-poker/ReactorSceneKitParticleSystem.scnp"; sourceTree = "<group>"; };
 		96D93CB81D0C2F7100B6F9F2 /* scrum-poker-menu-freestyle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrum-poker-menu-freestyle2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -243,6 +243,19 @@
 		9679B5961D0D4D890021CAFB /* six-scrum-poker-particels */ = {
 			isa = PBXGroup;
 			children = (
+				9662656B1D0B632F0067E7E5 /* FireSceneKitParticleSystem.scnp */,
+				9662656C1D0B632F0067E7E5 /* spark.png */,
+				966265631D0B5CB00067E7E5 /* SpaceSceneKitParticelSystem.scnp */,
+				96D93CB61D0BE01C00B6F9F2 /* ReactorSceneKitParticleSystem.scnp */,
+				966265641D0B5CB10067E7E5 /* star.png */,
+				9662655F1D0B5A560067E7E5 /* ConfettiSceneKitParticleSystem.scnp */,
+				966265601D0B5A560067E7E5 /* confetti.png */,
+				966265671D0B5F260067E7E5 /* BokehSceneKitParticleSystem.scnp */,
+				966265681D0B5F260067E7E5 /* bokeh.png */,
+				9662656F1D0B63D20067E7E5 /* RainSceneKitParticleSystem.scnp */,
+				966AFE831D0B6D57000AF5E0 /* SmokeSceneKitParticleSystem.scnp */,
+				966AFE841D0B6D57000AF5E0 /* smoke.png */,
+				9662655B1D0B54620067E7E5 /* PrimitiveScene.swift */,
 			);
 			name = "six-scrum-poker-particels";
 			sourceTree = "<group>";
@@ -274,19 +287,6 @@
 				968D9E521D08A3D5001A2B99 /* ViewController.swift */,
 				966264FF1D0ABA7D0067E7E5 /* ClassicViewController.swift */,
 				966265031D0AC0F20067E7E5 /* ClassicDetailsViewController.swift */,
-				9662656B1D0B632F0067E7E5 /* FireSceneKitParticleSystem.scnp */,
-				9662656C1D0B632F0067E7E5 /* spark.png */,
-				966265631D0B5CB00067E7E5 /* SpaceSceneKitParticelSystem.scnp */,
-				96D93CB61D0BE01C00B6F9F2 /* ReactorSceneKitParticleSystem.scnp */,
-				966265641D0B5CB10067E7E5 /* star.png */,
-				9662655F1D0B5A560067E7E5 /* ConfettiSceneKitParticleSystem.scnp */,
-				966265601D0B5A560067E7E5 /* confetti.png */,
-				966265671D0B5F260067E7E5 /* BokehSceneKitParticleSystem.scnp */,
-				966265681D0B5F260067E7E5 /* bokeh.png */,
-				9662656F1D0B63D20067E7E5 /* RainSceneKitParticleSystem.scnp */,
-				966AFE831D0B6D57000AF5E0 /* SmokeSceneKitParticleSystem.scnp */,
-				966AFE841D0B6D57000AF5E0 /* smoke.png */,
-				9662655B1D0B54620067E7E5 /* PrimitiveScene.swift */,
 				966265071D0AF4660067E7E5 /* DrawingViewController.swift */,
 				966264ED1D0AAE170067E7E5 /* SnapchatViewController.swift */,
 				966265411D0B0C410067E7E5 /* SnapchatViewControllerQuestion.swift */,
