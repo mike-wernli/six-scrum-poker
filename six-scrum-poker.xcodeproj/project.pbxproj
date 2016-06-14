@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9640F1FE1D10869F0089A706 /* scrum-poker-classic-small-teaser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9640F1FB1D10869F0089A706 /* scrum-poker-classic-small-teaser.gif */; };
+		9640F1FF1D10869F0089A706 /* scrum-poker-freestyle-small-teaser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9640F1FC1D10869F0089A706 /* scrum-poker-freestyle-small-teaser.gif */; };
+		9640F2001D10869F0089A706 /* scrum-poker-swipe-small-teaser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9640F1FD1D10869F0089A706 /* scrum-poker-swipe-small-teaser.gif */; };
 		966264EE1D0AAE170067E7E5 /* SnapchatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966264ED1D0AAE170067E7E5 /* SnapchatViewController.swift */; };
 		966264F11D0AAF7B0067E7E5 /* SnapchatViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966264EF1D0AAF7B0067E7E5 /* SnapchatViewController0.swift */; };
 		966264F21D0AAF7B0067E7E5 /* SnapchatViewController0.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966264F01D0AAF7B0067E7E5 /* SnapchatViewController0.xib */; };
@@ -90,6 +93,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9640F1FB1D10869F0089A706 /* scrum-poker-classic-small-teaser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scrum-poker-classic-small-teaser.gif"; sourceTree = "<group>"; };
+		9640F1FC1D10869F0089A706 /* scrum-poker-freestyle-small-teaser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scrum-poker-freestyle-small-teaser.gif"; sourceTree = "<group>"; };
+		9640F1FD1D10869F0089A706 /* scrum-poker-swipe-small-teaser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scrum-poker-swipe-small-teaser.gif"; sourceTree = "<group>"; };
 		966264ED1D0AAE170067E7E5 /* SnapchatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapchatViewController.swift; path = ../SnapchatViewController.swift; sourceTree = "<group>"; };
 		966264EF1D0AAF7B0067E7E5 /* SnapchatViewController0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapchatViewController0.swift; sourceTree = "<group>"; };
 		966264F01D0AAF7B0067E7E5 /* SnapchatViewController0.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapchatViewController0.xib; sourceTree = "<group>"; };
@@ -197,6 +203,9 @@
 				9679B5871D0D46360021CAFB /* scrum-poker-menu-classic.afdesign */,
 				9679B5881D0D46360021CAFB /* scrum-poker-menu-freestyle.afdesign */,
 				9679B5891D0D46360021CAFB /* scrum-poker-menu-snapchat.afdesign */,
+				9640F1FB1D10869F0089A706 /* scrum-poker-classic-small-teaser.gif */,
+				9640F1FC1D10869F0089A706 /* scrum-poker-freestyle-small-teaser.gif */,
+				9640F1FD1D10869F0089A706 /* scrum-poker-swipe-small-teaser.gif */,
 			);
 			name = "six-scrum-poker-additional-files";
 			sourceTree = "<group>";
@@ -376,6 +385,7 @@
 				966264F61D0AAF8A0067E7E5 /* SnapchatViewController1.xib in Resources */,
 				968D9E5E1D08A3D6001A2B99 /* LaunchScreen.storyboard in Resources */,
 				966265281D0AFB880067E7E5 /* poker-card-template-green-0d.png in Resources */,
+				9640F1FF1D10869F0089A706 /* scrum-poker-freestyle-small-teaser.gif in Resources */,
 				966265621D0B5A560067E7E5 /* confetti.png in Resources */,
 				966265141D0AFB710067E7E5 /* poker-card-template-green-0c.png in Resources */,
 				9679B57E1D0D45C10021CAFB /* codecamp16-notizen.rtf in Resources */,
@@ -403,6 +413,7 @@
 				966264FE1D0AAFAD0067E7E5 /* SnapchatViewController3.xib in Resources */,
 				9679B5781D0C7A170021CAFB /* notizblock-bg.png in Resources */,
 				9679B5861D0D46170021CAFB /* scrum-poker-card-applogo-green.afdesign in Resources */,
+				9640F1FE1D10869F0089A706 /* scrum-poker-classic-small-teaser.gif in Resources */,
 				966265541D0B18270067E7E5 /* symbol-coffee-300.png in Resources */,
 				966265441D0B0C410067E7E5 /* SnapchatViewControllerQuestion.xib in Resources */,
 				966265501D0B0CD10067E7E5 /* SnapchatViewControllerHalf.xib in Resources */,
@@ -421,6 +432,7 @@
 				966265221D0AFB7B0067E7E5 /* poker-card-template-green-8.png in Resources */,
 				966265211D0AFB7B0067E7E5 /* poker-card-template-green-5.png in Resources */,
 				966265661D0B5CB10067E7E5 /* star.png in Resources */,
+				9640F2001D10869F0089A706 /* scrum-poker-swipe-small-teaser.gif in Resources */,
 				966AFE861D0B6D57000AF5E0 /* smoke.png in Resources */,
 				9679B57B1D0C7A170021CAFB /* scrum-poker-menu-snapchat.png in Resources */,
 				966265481D0B0C530067E7E5 /* SnapchatViewControllerCoffee.xib in Resources */,
