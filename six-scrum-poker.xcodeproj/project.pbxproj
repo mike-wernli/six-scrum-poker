@@ -79,10 +79,6 @@
 		9679B58A1D0D46360021CAFB /* scrum-poker-menu-classic.afdesign in Resources */ = {isa = PBXBuildFile; fileRef = 9679B5871D0D46360021CAFB /* scrum-poker-menu-classic.afdesign */; };
 		9679B58B1D0D46360021CAFB /* scrum-poker-menu-freestyle.afdesign in Resources */ = {isa = PBXBuildFile; fileRef = 9679B5881D0D46360021CAFB /* scrum-poker-menu-freestyle.afdesign */; };
 		9679B58C1D0D46360021CAFB /* scrum-poker-menu-snapchat.afdesign in Resources */ = {isa = PBXBuildFile; fileRef = 9679B5891D0D46360021CAFB /* scrum-poker-menu-snapchat.afdesign */; };
-		9679B5911D0D4A930021CAFB /* scrum-poker-classic-small-teaser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9679B58D1D0D4A930021CAFB /* scrum-poker-classic-small-teaser.gif */; };
-		9679B5921D0D4A930021CAFB /* scrum-poker-classic-teaser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9679B58E1D0D4A930021CAFB /* scrum-poker-classic-teaser.gif */; };
-		9679B5931D0D4A930021CAFB /* scrum-poker-freestyle-teaser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9679B58F1D0D4A930021CAFB /* scrum-poker-freestyle-teaser.gif */; };
-		9679B5941D0D4A930021CAFB /* scrum-poker-swipe-teaser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9679B5901D0D4A930021CAFB /* scrum-poker-swipe-teaser.gif */; };
 		968D9E511D08A3D5001A2B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D9E501D08A3D5001A2B99 /* AppDelegate.swift */; };
 		968D9E531D08A3D5001A2B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D9E521D08A3D5001A2B99 /* ViewController.swift */; };
 		968D9E561D08A3D6001A2B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968D9E541D08A3D6001A2B99 /* Main.storyboard */; };
@@ -166,10 +162,6 @@
 		9679B5871D0D46360021CAFB /* scrum-poker-menu-classic.afdesign */ = {isa = PBXFileReference; lastKnownFileType = file; path = "scrum-poker-menu-classic.afdesign"; sourceTree = "<group>"; };
 		9679B5881D0D46360021CAFB /* scrum-poker-menu-freestyle.afdesign */ = {isa = PBXFileReference; lastKnownFileType = file; path = "scrum-poker-menu-freestyle.afdesign"; sourceTree = "<group>"; };
 		9679B5891D0D46360021CAFB /* scrum-poker-menu-snapchat.afdesign */ = {isa = PBXFileReference; lastKnownFileType = file; path = "scrum-poker-menu-snapchat.afdesign"; sourceTree = "<group>"; };
-		9679B58D1D0D4A930021CAFB /* scrum-poker-classic-small-teaser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scrum-poker-classic-small-teaser.gif"; sourceTree = "<group>"; };
-		9679B58E1D0D4A930021CAFB /* scrum-poker-classic-teaser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scrum-poker-classic-teaser.gif"; sourceTree = "<group>"; };
-		9679B58F1D0D4A930021CAFB /* scrum-poker-freestyle-teaser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scrum-poker-freestyle-teaser.gif"; sourceTree = "<group>"; };
-		9679B5901D0D4A930021CAFB /* scrum-poker-swipe-teaser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scrum-poker-swipe-teaser.gif"; sourceTree = "<group>"; };
 		968D9E4D1D08A3D5001A2B99 /* six-scrum-poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "six-scrum-poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		968D9E501D08A3D5001A2B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		968D9E521D08A3D5001A2B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -205,10 +197,6 @@
 				9679B5871D0D46360021CAFB /* scrum-poker-menu-classic.afdesign */,
 				9679B5881D0D46360021CAFB /* scrum-poker-menu-freestyle.afdesign */,
 				9679B5891D0D46360021CAFB /* scrum-poker-menu-snapchat.afdesign */,
-				9679B58D1D0D4A930021CAFB /* scrum-poker-classic-small-teaser.gif */,
-				9679B58E1D0D4A930021CAFB /* scrum-poker-classic-teaser.gif */,
-				9679B58F1D0D4A930021CAFB /* scrum-poker-freestyle-teaser.gif */,
-				9679B5901D0D4A930021CAFB /* scrum-poker-swipe-teaser.gif */,
 			);
 			name = "six-scrum-poker-additional-files";
 			sourceTree = "<group>";
@@ -410,20 +398,17 @@
 				966265401D0B0C1C0067E7E5 /* SnapchatViewController100.xib in Resources */,
 				9662653C1D0B0C080067E7E5 /* SnapchatViewController40.xib in Resources */,
 				966265251D0AFB7B0067E7E5 /* poker-card-template-green-40.png in Resources */,
-				9679B5921D0D4A930021CAFB /* scrum-poker-classic-teaser.gif in Resources */,
 				966265201D0AFB7B0067E7E5 /* poker-card-template-green-3.png in Resources */,
 				968D9E5B1D08A3D6001A2B99 /* Assets.xcassets in Resources */,
 				966264FE1D0AAFAD0067E7E5 /* SnapchatViewController3.xib in Resources */,
 				9679B5781D0C7A170021CAFB /* notizblock-bg.png in Resources */,
 				9679B5861D0D46170021CAFB /* scrum-poker-card-applogo-green.afdesign in Resources */,
-				9679B5911D0D4A930021CAFB /* scrum-poker-classic-small-teaser.gif in Resources */,
 				966265541D0B18270067E7E5 /* symbol-coffee-300.png in Resources */,
 				966265441D0B0C410067E7E5 /* SnapchatViewControllerQuestion.xib in Resources */,
 				966265501D0B0CD10067E7E5 /* SnapchatViewControllerHalf.xib in Resources */,
 				96D93CB91D0C2F7100B6F9F2 /* scrum-poker-menu-freestyle2.png in Resources */,
 				9679B58A1D0D46360021CAFB /* scrum-poker-menu-classic.afdesign in Resources */,
 				9679B58C1D0D46360021CAFB /* scrum-poker-menu-snapchat.afdesign in Resources */,
-				9679B5941D0D4A930021CAFB /* scrum-poker-swipe-teaser.gif in Resources */,
 				966265701D0B63D20067E7E5 /* RainSceneKitParticleSystem.scnp in Resources */,
 				9662654C1D0B0C690067E7E5 /* SnapchatViewControllerInfinity.xib in Resources */,
 				9662656D1D0B632F0067E7E5 /* FireSceneKitParticleSystem.scnp in Resources */,
@@ -436,7 +421,6 @@
 				966265221D0AFB7B0067E7E5 /* poker-card-template-green-8.png in Resources */,
 				966265211D0AFB7B0067E7E5 /* poker-card-template-green-5.png in Resources */,
 				966265661D0B5CB10067E7E5 /* star.png in Resources */,
-				9679B5931D0D4A930021CAFB /* scrum-poker-freestyle-teaser.gif in Resources */,
 				966AFE861D0B6D57000AF5E0 /* smoke.png in Resources */,
 				9679B57B1D0C7A170021CAFB /* scrum-poker-menu-snapchat.png in Resources */,
 				966265481D0B0C530067E7E5 /* SnapchatViewControllerCoffee.xib in Resources */,
