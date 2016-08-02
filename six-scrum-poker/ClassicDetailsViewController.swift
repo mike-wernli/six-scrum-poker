@@ -27,6 +27,19 @@ class ClassicDetailsViewController: UIViewController {
         labelPokerCard.text = labelCardText
         labelPokerCardSmall.text = labelCardText
         
+        let modelName = UIDevice.currentDevice().modelName
+        NSLog("detected modelname="+modelName)
+        
+        if modelName.containsString("Plus") {
+            NSLog("Detected iPhone Plus Model: "+modelName)
+            labelPokerCardSmall.hidden = true
+            labelPokerCard.hidden = false
+        } else {
+            NSLog("Detected iPhone normal Model: "+modelName)
+            labelPokerCard.hidden = true
+            labelPokerCardSmall.hidden = false
+        }
+        
         let scnView = self.view as! SCNView
         scnView.scene = PrimitiveScene()
         scnView.backgroundColor = UIColor.blackColor()
