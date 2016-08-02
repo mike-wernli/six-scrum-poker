@@ -59,7 +59,7 @@ class DrawingViewController: UIViewController {
         CGContextSetRGBStrokeColor(UIGraphicsGetCurrentContext(), 0, 0, 0, 1)
         CGContextSetLineCap(UIGraphicsGetCurrentContext(), CGLineCap.Round);
         CGContextSetLineWidth(UIGraphicsGetCurrentContext(),10.0);
-        CGContextSetLineWidth(context, 16)
+        CGContextSetLineWidth(context, 8)
         CGContextBeginPath(context)
         CGContextMoveToPoint(context, start.x, start.y)
         CGContextAddLineToPoint(context, end.x, end.y)
