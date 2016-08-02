@@ -71,29 +71,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notizblock-bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZRj-9Z-Y9d">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="600" id="Mw3-20-pqw"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6si-S5-5LV">
-                                <rect key="frame" x="20" y="75" width="560" height="30"/>
-                                <state key="normal" title="Freestyle Clear"/>
-                                <connections>
-                                    <action selector="buttonClearPressed:" destination="BC5-vh-Neu" eventType="touchUpInside" id="VhC-ss-PBC"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="3Hg-1z-T8U">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="skx-zB-2Ha">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="24"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6si-S5-5LV">
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="24"/>
+                                                <state key="normal" title="Freestyle Clear"/>
+                                                <connections>
+                                                    <action selector="buttonClearPressed:" destination="BC5-vh-Neu" eventType="touchUpInside" id="VhC-ss-PBC"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="6si-S5-5LV" firstAttribute="centerX" secondItem="skx-zB-2Ha" secondAttribute="centerX" id="iu0-Xx-Y22"/>
+                                            <constraint firstItem="6si-S5-5LV" firstAttribute="centerY" secondItem="skx-zB-2Ha" secondAttribute="centerY" id="orC-xs-4xE"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="BG6-yS-2vT">
+                                        <rect key="frame" x="0.0" y="24" width="600" height="512"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notizblock-bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZRj-9Z-Y9d">
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="512"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="ZRj-9Z-Y9d" firstAttribute="centerY" secondItem="BG6-yS-2vT" secondAttribute="centerY" id="JKe-iE-KUD"/>
+                                            <constraint firstItem="ZRj-9Z-Y9d" firstAttribute="centerX" secondItem="BG6-yS-2vT" secondAttribute="centerX" id="S1W-Us-VMo"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ZRj-9Z-Y9d" firstAttribute="bottom" secondItem="bc5-BR-Kls" secondAttribute="top" id="4yj-IO-Azh"/>
-                            <constraint firstItem="ZRj-9Z-Y9d" firstAttribute="centerX" secondItem="6si-S5-5LV" secondAttribute="centerX" id="EPu-xz-w0q"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="6si-S5-5LV" secondAttribute="trailing" id="SV0-Le-Lb6"/>
-                            <constraint firstItem="6si-S5-5LV" firstAttribute="top" secondItem="mBf-jO-id1" secondAttribute="bottom" constant="11" id="dx2-OZ-JNn"/>
-                            <constraint firstItem="ZRj-9Z-Y9d" firstAttribute="leading" secondItem="6r4-qJ-al5" secondAttribute="leading" id="pfc-Es-wCg"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="6si-S5-5LV" secondAttribute="leading" id="pgG-6N-pGA"/>
+                            <constraint firstAttribute="trailing" secondItem="3Hg-1z-T8U" secondAttribute="trailing" id="9ey-9e-nIV"/>
+                            <constraint firstItem="3Hg-1z-T8U" firstAttribute="bottom" secondItem="bc5-BR-Kls" secondAttribute="top" id="GgO-Ks-Kxs"/>
+                            <constraint firstItem="3Hg-1z-T8U" firstAttribute="top" secondItem="mBf-jO-id1" secondAttribute="bottom" id="N50-f2-bSm"/>
+                            <constraint firstItem="3Hg-1z-T8U" firstAttribute="leading" secondItem="6r4-qJ-al5" secondAttribute="leading" id="t2a-NT-dLh"/>
                         </constraints>
                     </view>
                     <connections>

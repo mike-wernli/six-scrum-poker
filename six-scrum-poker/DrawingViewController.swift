@@ -31,7 +31,7 @@ class DrawingViewController: UIViewController {
     @IBAction func buttonClearPressed(sender: AnyObject) {
         drawImageView.image = nil
         drawImageView.image = UIImage(named: "notizblock-bg")
-        NSLog("You piece of 💩 reset that damn image!!!!!")
+        NSLog("notizblock image reset done!")
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
@@ -58,7 +58,7 @@ class DrawingViewController: UIViewController {
         //CGContextSetRGBStrokeColor(UIGraphicsGetCurrentContext(), 1, 1, 5, 1)
         CGContextSetRGBStrokeColor(UIGraphicsGetCurrentContext(), 0, 0, 0, 1)
         CGContextSetLineCap(UIGraphicsGetCurrentContext(), CGLineCap.Round);
-        CGContextSetLineWidth(UIGraphicsGetCurrentContext(),50.0);
+        CGContextSetLineWidth(UIGraphicsGetCurrentContext(),10.0);
         CGContextSetLineWidth(context, 16)
         CGContextBeginPath(context)
         CGContextMoveToPoint(context, start.x, start.y)
