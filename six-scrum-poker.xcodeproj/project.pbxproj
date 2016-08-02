@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37A7174D1D4F9FBC001D15AC /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A7174C1D4F9FBC001D15AC /* DeviceModel.swift */; };
 		9640F1FE1D10869F0089A706 /* scrum-poker-classic-small-teaser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9640F1FB1D10869F0089A706 /* scrum-poker-classic-small-teaser.gif */; };
 		9640F1FF1D10869F0089A706 /* scrum-poker-freestyle-small-teaser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9640F1FC1D10869F0089A706 /* scrum-poker-freestyle-small-teaser.gif */; };
 		9640F2001D10869F0089A706 /* scrum-poker-swipe-small-teaser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9640F1FD1D10869F0089A706 /* scrum-poker-swipe-small-teaser.gif */; };
@@ -93,6 +94,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37A7174C1D4F9FBC001D15AC /* DeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
 		9640F1FB1D10869F0089A706 /* scrum-poker-classic-small-teaser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scrum-poker-classic-small-teaser.gif"; sourceTree = "<group>"; };
 		9640F1FC1D10869F0089A706 /* scrum-poker-freestyle-small-teaser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scrum-poker-freestyle-small-teaser.gif"; sourceTree = "<group>"; };
 		9640F1FD1D10869F0089A706 /* scrum-poker-swipe-small-teaser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scrum-poker-swipe-small-teaser.gif"; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 				968D9E521D08A3D5001A2B99 /* ViewController.swift */,
 				966264FF1D0ABA7D0067E7E5 /* ClassicViewController.swift */,
 				966265031D0AC0F20067E7E5 /* ClassicDetailsViewController.swift */,
+				37A7174C1D4F9FBC001D15AC /* DeviceModel.swift */,
 				966265071D0AF4660067E7E5 /* DrawingViewController.swift */,
 				966264ED1D0AAE170067E7E5 /* SnapchatViewController.swift */,
 				966265411D0B0C410067E7E5 /* SnapchatViewControllerQuestion.swift */,
@@ -456,6 +459,7 @@
 				966265001D0ABA7D0067E7E5 /* ClassicViewController.swift in Sources */,
 				9662654B1D0B0C690067E7E5 /* SnapchatViewControllerInfinity.swift in Sources */,
 				966264EE1D0AAE170067E7E5 /* SnapchatViewController.swift in Sources */,
+				37A7174D1D4F9FBC001D15AC /* DeviceModel.swift in Sources */,
 				966265041D0AC0F20067E7E5 /* ClassicDetailsViewController.swift in Sources */,
 				968D9E591D08A3D6001A2B99 /* six_scrum_poker.xcdatamodeld in Sources */,
 				968D9E531D08A3D5001A2B99 /* ViewController.swift in Sources */,
