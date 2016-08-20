@@ -362,7 +362,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 968D9E481D08A3D5001A2B99 /* Build configuration list for PBXProject "six-scrum-poker" */;
+			buildConfigurationList = 968D9E481D08A3D5001A2B99 /* Build configuration list for PBXProject "my-scrum-poker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -613,7 +613,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		968D9E481D08A3D5001A2B99 /* Build configuration list for PBXProject "six-scrum-poker" */ = {
+		968D9E481D08A3D5001A2B99 /* Build configuration list for PBXProject "my-scrum-poker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				968D9E601D08A3D6001A2B99 /* Debug */,
