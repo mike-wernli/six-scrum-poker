@@ -266,7 +266,7 @@
 				9679B5951D0D4D090021CAFB /* six.scrum-poker-pics */,
 				9679B57C1D0D45630021CAFB /* six-scrum-poker-additional-files */,
 				9662655D1D0B55920067E7E5 /* SceneKit.framework */,
-				968D9E4F1D08A3D5001A2B99 /* six-scrum-poker */,
+				968D9E4F1D08A3D5001A2B99 /* my-scrum-poker */,
 				968D9E4E1D08A3D5001A2B99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -279,7 +279,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		968D9E4F1D08A3D5001A2B99 /* six-scrum-poker */ = {
+		968D9E4F1D08A3D5001A2B99 /* my-scrum-poker */ = {
 			isa = PBXGroup;
 			children = (
 				968D9E501D08A3D5001A2B99 /* AppDelegate.swift */,
@@ -323,6 +323,7 @@
 				968D9E5F1D08A3D6001A2B99 /* Info.plist */,
 				968D9E571D08A3D6001A2B99 /* six_scrum_poker.xcdatamodeld */,
 			);
+			name = "my-scrum-poker";
 			path = "six-scrum-poker";
 			sourceTree = "<group>";
 		};

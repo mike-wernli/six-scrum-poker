@@ -6,7 +6,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--SIX Scrum Poker-->
+        <!--my scrum poker-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="six_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
@@ -53,7 +53,7 @@
                             <constraint firstItem="qYk-tF-WzL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mAQ-Yd-Mfi"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="SIX Scrum Poker" id="Kgg-AW-rJL"/>
+                    <navigationItem key="navigationItem" title="my scrum poker" id="Kgg-AW-rJL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
