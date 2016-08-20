@@ -354,7 +354,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = six.codecamp16;
+				ORGANIZATIONNAME = ch.mikewernli;
 				TargetAttributes = {
 					968D9E4C1D08A3D5001A2B99 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -593,7 +593,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "six-scrum-poker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.six.codecamp16.six-scrum-poker";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.mikewernli.my-scrum-poker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -605,7 +605,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "six-scrum-poker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.six.codecamp16.six-scrum-poker";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.mikewernli.my-scrum-poker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
