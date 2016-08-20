@@ -170,7 +170,7 @@
 		9679B5871D0D46360021CAFB /* scrum-poker-menu-classic.afdesign */ = {isa = PBXFileReference; lastKnownFileType = file; path = "scrum-poker-menu-classic.afdesign"; sourceTree = "<group>"; };
 		9679B5881D0D46360021CAFB /* scrum-poker-menu-freestyle.afdesign */ = {isa = PBXFileReference; lastKnownFileType = file; path = "scrum-poker-menu-freestyle.afdesign"; sourceTree = "<group>"; };
 		9679B5891D0D46360021CAFB /* scrum-poker-menu-snapchat.afdesign */ = {isa = PBXFileReference; lastKnownFileType = file; path = "scrum-poker-menu-snapchat.afdesign"; sourceTree = "<group>"; };
-		968D9E4D1D08A3D5001A2B99 /* six-scrum-poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "six-scrum-poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		968D9E4D1D08A3D5001A2B99 /* my-scrum-poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-scrum-poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		968D9E501D08A3D5001A2B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		968D9E521D08A3D5001A2B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		968D9E551D08A3D6001A2B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -274,7 +274,7 @@
 		968D9E4E1D08A3D5001A2B99 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				968D9E4D1D08A3D5001A2B99 /* six-scrum-poker.app */,
+				968D9E4D1D08A3D5001A2B99 /* my-scrum-poker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -330,9 +330,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		968D9E4C1D08A3D5001A2B99 /* six-scrum-poker */ = {
+		968D9E4C1D08A3D5001A2B99 /* my-scrum-poker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 968D9E621D08A3D6001A2B99 /* Build configuration list for PBXNativeTarget "six-scrum-poker" */;
+			buildConfigurationList = 968D9E621D08A3D6001A2B99 /* Build configuration list for PBXNativeTarget "my-scrum-poker" */;
 			buildPhases = (
 				968D9E491D08A3D5001A2B99 /* Sources */,
 				968D9E4A1D08A3D5001A2B99 /* Frameworks */,
@@ -342,9 +342,9 @@
 			);
 			dependencies = (
 			);
-			name = "six-scrum-poker";
+			name = "my-scrum-poker";
 			productName = "six-scrum-poker";
-			productReference = 968D9E4D1D08A3D5001A2B99 /* six-scrum-poker.app */;
+			productReference = 968D9E4D1D08A3D5001A2B99 /* my-scrum-poker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -376,7 +376,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				968D9E4C1D08A3D5001A2B99 /* six-scrum-poker */,
+				968D9E4C1D08A3D5001A2B99 /* my-scrum-poker */,
 			);
 		};
 /* End PBXProject section */
@@ -623,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		968D9E621D08A3D6001A2B99 /* Build configuration list for PBXNativeTarget "six-scrum-poker" */ = {
+		968D9E621D08A3D6001A2B99 /* Build configuration list for PBXNativeTarget "my-scrum-poker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				968D9E631D08A3D6001A2B99 /* Debug */,
