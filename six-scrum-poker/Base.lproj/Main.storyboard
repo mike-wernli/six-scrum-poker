@@ -9,7 +9,7 @@
         <!--my scrum poker-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="six_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="my_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -62,7 +62,7 @@
         <!--Drawing View Controller-->
         <scene sceneID="SfS-XW-Zxn">
             <objects>
-                <viewController id="BC5-vh-Neu" customClass="DrawingViewController" customModule="six_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BC5-vh-Neu" customClass="DrawingViewController" customModule="my_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mBf-jO-id1"/>
                         <viewControllerLayoutGuide type="bottom" id="bc5-BR-Kls"/>
@@ -79,16 +79,12 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6si-S5-5LV">
                                                 <rect key="frame" x="0.0" y="0.0" width="600" height="24"/>
-                                                <state key="normal" title="Freestyle Clear"/>
+                                                <state key="normal" title="clear"/>
                                                 <connections>
                                                     <action selector="buttonClearPressed:" destination="BC5-vh-Neu" eventType="touchUpInside" id="VhC-ss-PBC"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstItem="6si-S5-5LV" firstAttribute="centerX" secondItem="skx-zB-2Ha" secondAttribute="centerX" id="iu0-Xx-Y22"/>
-                                            <constraint firstItem="6si-S5-5LV" firstAttribute="centerY" secondItem="skx-zB-2Ha" secondAttribute="centerY" id="orC-xs-4xE"/>
-                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="BG6-yS-2vT">
                                         <rect key="frame" x="0.0" y="24" width="600" height="512"/>
@@ -125,12 +121,12 @@
         <!--Snapchat View Controller-->
         <scene sceneID="BWd-00-75t">
             <objects>
-                <viewController id="NOU-G4-SG9" customClass="SnapchatViewController" customModule="six_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NOU-G4-SG9" customClass="SnapchatViewController" customModule="my_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pmA-q6-X7a"/>
                         <viewControllerLayoutGuide type="bottom" id="kbX-Xg-Ly6"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="I9k-d6-0gJ">
+                    <view key="view" contentMode="scaleToFill" id="I9k-d6-0gJ" customClass="SCNView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -160,7 +156,7 @@
         <!--Classic View Controller-->
         <scene sceneID="PPq-Q7-gvx">
             <objects>
-                <viewController id="BOC-TB-m1c" customClass="ClassicViewController" customModule="six_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BOC-TB-m1c" customClass="ClassicViewController" customModule="my_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Qe7-ZV-yUq"/>
                         <viewControllerLayoutGuide type="bottom" id="A98-tt-mIS"/>
@@ -314,7 +310,7 @@
         <!--Classic Details View Controller-->
         <scene sceneID="Hk5-Tl-Zhu">
             <objects>
-                <viewController id="ZDh-Gg-Mer" customClass="ClassicDetailsViewController" customModule="six_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZDh-Gg-Mer" customClass="ClassicDetailsViewController" customModule="my_scrum_poker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pcq-An-IH7"/>
                         <viewControllerLayoutGuide type="bottom" id="wgw-3V-GDA"/>

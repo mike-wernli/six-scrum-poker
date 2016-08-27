@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SceneKit
 
 class SnapchatViewController: UIViewController {
 
@@ -15,6 +16,7 @@ class SnapchatViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
         
@@ -141,7 +143,7 @@ class SnapchatViewController: UIViewController {
         vcInfinity.didMoveToParentViewController(self)
         NSLog("Swipped to Card Infinity")
         
-        self.scrollViewSnapchat.contentSize = CGSizeMake(self.view.frame.size.width * 15,
+        self.scrollViewSnapchat.contentSize = CGSizeMake(self.view.frame.size.width * 14,
         self.view.frame.size.height - 66)
         
     }
